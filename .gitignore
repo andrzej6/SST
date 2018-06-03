@@ -1,4 +1,5 @@
 .htaccessps
 .user.ini
 /config/settings.inc.php
+config/settings.old.php
 
