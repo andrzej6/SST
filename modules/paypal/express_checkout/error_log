@@ -1,0 +1,52 @@
+[05-Jan-2015 22:16:58 Europe/London] PHP Fatal error:  Uncaught exception 'PrestaShopException' with message 'Property OrderDetail->product_name is not valid' in /home/gbs2/public_html/prestashop/classes/ObjectModel.php:837
+Stack trace:
+#0 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(255): ObjectModelCore->validateFields()
+#1 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(455): ObjectModelCore->getFields()
+#2 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(417): ObjectModelCore->add(true, false)
+#3 /home/gbs2/public_html/prestashop/classes/order/OrderDetail.php(589): ObjectModelCore->save()
+#4 /home/gbs2/public_html/prestashop/classes/order/OrderDetail.php(613): OrderDetailCore->create(Object(Order), Object(Cart), Array, 2, 0, true, 0)
+#5 /home/gbs2/public_html/prestashop/classes/PaymentModule.php(292): OrderDetailCore->createList(Object(Order), Object(Cart), 2, Array, 0, true, 0)
+#6 /home/gbs2/public_html/prestashop/modules/paypal/paypal.php(1366): PaymentModuleCore->validateOrder(3, 2, 706.79, 'PayPal', 'Payment accepte...', Ar in /home/gbs2/public_html/prestashop/classes/ObjectModel.php on line 837
+[05-Jan-2015 22:39:25 Europe/London] PHP Fatal error:  Uncaught exception 'PrestaShopException' with message 'Property OrderDetail->product_name is not valid' in /home/gbs2/public_html/prestashop/classes/ObjectModel.php:837
+Stack trace:
+#0 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(255): ObjectModelCore->validateFields()
+#1 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(455): ObjectModelCore->getFields()
+#2 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(417): ObjectModelCore->add(true, false)
+#3 /home/gbs2/public_html/prestashop/classes/order/OrderDetail.php(589): ObjectModelCore->save()
+#4 /home/gbs2/public_html/prestashop/classes/order/OrderDetail.php(613): OrderDetailCore->create(Object(Order), Object(Cart), Array, 2, 0, true, 0)
+#5 /home/gbs2/public_html/prestashop/classes/PaymentModule.php(292): OrderDetailCore->createList(Object(Order), Object(Cart), 2, Array, 0, true, 0)
+#6 /home/gbs2/public_html/prestashop/modules/paypal/paypal.php(1366): PaymentModuleCore->validateOrder(4, 2, 706.79, 'PayPal', 'Payment accepte...', Ar in /home/gbs2/public_html/prestashop/classes/ObjectModel.php on line 837
+[05-Jan-2015 23:54:13 Europe/London] PHP Fatal error:  Uncaught exception 'PrestaShopException' with message 'Property OrderDetail->product_name is not valid' in /home/gbs2/public_html/prestashop/classes/ObjectModel.php:837
+Stack trace:
+#0 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(255): ObjectModelCore->validateFields()
+#1 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(455): ObjectModelCore->getFields()
+#2 /home/gbs2/public_html/prestashop/classes/ObjectModel.php(417): ObjectModelCore->add(true, false)
+#3 /home/gbs2/public_html/prestashop/classes/order/OrderDetail.php(589): ObjectModelCore->save()
+#4 /home/gbs2/public_html/prestashop/classes/order/OrderDetail.php(613): OrderDetailCore->create(Object(Order), Object(Cart), Array, 2, 0, true, 0)
+#5 /home/gbs2/public_html/prestashop/classes/PaymentModule.php(292): OrderDetailCore->createList(Object(Order), Object(Cart), 2, Array, 0, true, 0)
+#6 /home/gbs2/public_html/prestashop/modules/paypal/paypal.php(1366): PaymentModuleCore->validateOrder(5, 2, 286.79, 'PayPal', 'Payment accepte...', Ar in /home/gbs2/public_html/prestashop/classes/ObjectModel.php on line 837
+[06-Jan-2015 03:27:38 Europe/London] PHP Fatal error:  Uncaught Duplicate entry '1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_order_detail_tax` (id_order_detail, id_tax, unit_amount, total_amount)
+				VALUES (1,1,55,55)</pre>
+  thrown in /home/gbs2/public_html/prestashop/classes/db/Db.php on line 635
+[08-Jan-2015 00:28:31 Europe/London] PHP Fatal error:  Uncaught Duplicate entry '4' for key 'PRIMARY'<br /><br /><pre>
+			INSERT INTO `ps_paypal_order`
+			(`id_order`, `id_transaction`, `id_invoice`, `currency`, `total_paid`, `shipping`, `capture`, `payment_date`, `payment_method`, `payment_status`)
+			VALUES (4, '7LT72664C89710719', '',
+				'GBP',
+				'1120',
+				'120',
+				'0',
+				'2015-01-08T00:28:27Z',
+				'1',
+				'Completed')</pre>
+  thrown in /home/gbs2/public_html/prestashop/classes/db/Db.php on line 635
+[08-Jan-2015 00:56:06 Europe/London] PHP Fatal error:  Uncaught Duplicate entry '1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_order_detail_tax` (id_order_detail, id_tax, unit_amount, total_amount)
+				VALUES (1,1,55,55)</pre>
+  thrown in /home/gbs2/public_html/prestashop/classes/db/Db.php on line 635
+[08-Jan-2015 00:59:13 Europe/London] PHP Fatal error:  Uncaught Duplicate entry '2' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_order_detail_tax` (id_order_detail, id_tax, unit_amount, total_amount)
+				VALUES (2,1,59.99,59.99)</pre>
+  thrown in /home/gbs2/public_html/prestashop/classes/db/Db.php on line 635
+[08-Jan-2015 01:14:29 Europe/London] PHP Fatal error:  Uncaught Duplicate entry '3' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_order_detail_tax` (id_order_detail, id_tax, unit_amount, total_amount)
+				VALUES (3,1,107.47,107.47)</pre>
+  thrown in /home/gbs2/public_html/prestashop/classes/db/Db.php on line 635
+[16-Feb-2015 11:05:38 Europe/London] PHP Warning:  touch() [<a href='function.touch'>function.touch</a>]: Unable to create file /home/gbs2/public_html/cache/push/activity because No such file or directory in /home/gbs2/public_html/classes/Tools.php on line 2929

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>gremarketingtag</name>
+	<displayName><![CDATA[Google Remarketing Tag]]></displayName>
+	<version><![CDATA[1.4.6]]></version>
+	<description><![CDATA[Adds The Google remarketing tag to pages]]></description>
+	<author><![CDATA[Shoprunners]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

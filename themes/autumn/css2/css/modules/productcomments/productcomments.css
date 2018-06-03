@@ -1,0 +1,52 @@
+/* pop-in add grade/advice ********************************************************************* */
+#new_comment_form .title {
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    background: #333333;
+}
+
+#new_comment_form ul.grade_content {
+    list-style-type: none;
+    margin: 0 0 20px 0;
+}
+
+#new_comment_form ul.grade_content li {
+    width: 50%;
+}
+
+#new_comment_form ul.grade_content span {
+    display: inline-block;
+    padding: 0 10px;
+    width: 150px;
+    font-weight: bold;
+}
+
+#new_comment_form ul.grade_content .cancel {
+    margin-right: 5px;
+}
+
+#new_comment_form .submit {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 13px;
+    text-align: right;
+}
+
+/* TAB COMMENTS ******************************************************************************** */
+#product_comments_block_tab span.report_btn {
+    cursor: pointer;
+}
+
+#product_comments_block_tab span.report_btn:hover {
+    text-decoration: underline;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}

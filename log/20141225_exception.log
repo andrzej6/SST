@@ -1,0 +1,5 @@
+*ERROR* 	2014/12/25 - 21:22:20: MySQL server has gone away<br /><br /><pre>
+		SELECT m.`name` FROM `ps_module` m
+		LEFT JOIN `ps_hook_module` hm ON hm.`id_module` = m.`id_module`
+		LEFT JOIN `ps_hook` h ON hm.`id_hook` = h.`id_hook`
+		WHERE h.`name` = 'actionWatermark' AND m.`active` = 1</pre> at line 635 in file classes/db/Db.php

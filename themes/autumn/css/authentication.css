@@ -1,0 +1,8 @@
+/**********************************************************
+				Authentication Styles
+**********************************************************/
+#account-creation_form .id_state,
+#account-creation_form .dni,
+#account-creation_form .postcode {
+    display: none;
+}.voucher-note {	text-align:center;	margin-bottom:10px;	color:#da3b44;	font-weight:bold;}.voucher-note-small { font-size:10px; font-weight:normal;}

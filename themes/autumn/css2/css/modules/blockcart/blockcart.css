@@ -1,0 +1,239 @@
+/*******************************************************************
+					Cart Block Styles
+********************************************************************/
+
+.shopping_cart .block_cart_expand:after, .shopping_cart .block_cart_collapse:after {
+    content: "\f0d7";
+    font-family: "FontAwesome";
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+    color: #686666;
+    padding: 6px 0 0 0;
+}
+
+.shopping_cart .block_cart_collapse:after {
+    content: "\f0d8";
+    padding: 4px 0px 2px 0px;
+}
+
+.cart_block dt {
+    padding: 20px;
+}
+
+.cart_block dd {
+    position: relative;
+}
+
+.cart_block dd .cart_block_customizations {
+    border-top: 1px dashed #333333;
+}
+
+.cart_block dd .cart_block_customizations li {
+    padding: 10px 20px;
+}
+
+.cart_block dd .cart_block_customizations li .deleteCustomizableProduct {
+    position: absolute;
+    right: 10px;
+}
+
+/*******************************************************************
+					Cart Block(Header) Styles
+********************************************************************/
+#header .cart_block {
+    position: absolute;
+    right: 0;
+    display: none;
+    height: auto;
+}
+
+.cart_block #cart_block_summary,
+.cart_block .title_block span,
+#header .cart_block h4,
+#header .cart_block .title_block,
+#header .cart_block h4 {
+    display: none;
+}
+
+.cart_block table.vouchers {
+}
+
+.cart_block table.vouchers tr td {
+    padding: 2px;
+}
+
+.cart_block table.vouchers tr td.quantity {
+    margin-right: 5px;
+    min-width: 18px;
+}
+
+.cart_block table.vouchers tr td.delete {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: right;
+    width: 15px;
+}
+
+/*****************************************************************************
+					Layer Cart Css
+*****************************************************************************/
+
+
+#layer_cart .layer_cart_product h2 {
+     color: #46a74e;
+     font-size:16px;
+ }
+
+#layer_cart .layer_cart_product .layer_cart_product_info {
+    padding: 15px 0 0 0;
+}
+
+#layer_cart .layer_cart_product .layer_cart_product_info #layer_cart_product_title {
+    display: block;
+}
+
+#layer_cart .layer_cart_product .layer_cart_product_info > div {
+    margin: 5px 0;
+}
+
+#layer_cart .layer_cart_product .layer_cart_product_info > div strong {
+    padding-right: 5px;
+}
+
+#layer_cart .layer_cart_cart {
+
+}
+
+#layer_cart .layer_cart_cart .layer_cart_row {
+    padding: 0 0 10px 0;
+}
+
+#layer_cart .layer_cart_cart .button-container .btn {
+    margin-bottom: 10px;
+}
+
+#layer_cart .layer_cart_cart .button-container span.exclusive-medium {
+    margin-right: 5px;
+}
+
+#layer_cart .layer_cart_cart .button-container span.exclusive-medium i {
+    padding-right: 5px;
+    color: #777777;
+}
+
+#layer_cart .cross {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+#layer_cart .continue {
+    cursor: pointer;
+}
+
+#layer_cart p {
+    padding: 0px;
+}
+
+
+
+#layer_cart .layer_cart_product.t-layerwithmargin,
+#layer_cart .layer_cart_cart.t-layerwithmargin {
+	#border:1px solid red;
+	padding:40px;
+}
+
+
+#layer_cart .layer_cart_cart.t-layerwithmargin .button-container {
+	width:100%;
+}
+
+
+
+
+
+
+
+
+/************************************************************************
+						Layer Cart Caroucel
+*************************************************************************/
+
+
+
+
+#layer_cart_product_price_inc_tax {
+	
+	font-weight:bold;
+	margin-left:20px;
+}
+
+
+.ajax_block_products_total_inctax,
+.ajax_block_cart_total_inctax,
+.ajax_cart_shipping_costinctax
+{
+	margin-left:20px;
+}
+
+
+
+.ajax_block_cart_total,
+.ajax_block_cart_total_inctax {
+	font-weight:bold;
+}
+
+.ajax_block_cart_total_inctax.price {
+	color:#565b64;
+}
+
+
+
+
+
+/* cart on the separate page -table customization  */
+
+
+.price .priceincvat {
+	color:#565b64;
+}
+
+
+#order-detail-content table tfoot tr td.special-alcels {
+	text-align:center;
+}
+
+
+#order-detail-content table tfoot tr td.special-alcels > .price
+{
+	float:none;
+}
+
+#cart_summary .cart_total_price #total_price_container.special-alcels {
+	font-size:17px;
+}
+
+
+
+#cart_summary .cart_total_price #total_price_container #total_priceincvat{
+	margin-top:-2px;
+	font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

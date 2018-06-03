@@ -1,0 +1,849 @@
+/*---------------------------------------------------------------*/
+/* 
+/*  Withinpixels Theme Framework v1.0 - responsive.css
+/*
+/*  This file created as a part of the "Withinpixels Theme
+/*  Framework" and all of the codes below created solely for
+/*  "Autumn - Prestashop Theme". Content of this file cannot
+/*  be copied for an outside personal/commercial project.
+/*
+/*  All rights are reserved.
+/*
+/*---------------------------------------------------------------*/
+
+/*----------------------------------------------------------*/
+/*
+/* Media Queries
+/*
+/*----------------------------------------------------------*/
+
+/*---------------------------------------*/
+/* width >= 1680px
+/*---------------------------------------*/
+@media only screen and (min-width: 1680px)
+{
+    .boxed #wrapper {
+        max-width: 1500px !important;
+    }
+
+    .row {
+        max-width: 1500px;
+    }
+
+    /* Hide */
+    .hide-above-1680,
+    .hide-above-1280,
+    .hide-above-1024,
+    .hide-above-960,
+    .hide-above-768,
+    .hide-above-640,
+    .hide-above-480,
+    .hide-above-420,
+    .hide-above-420 {
+        display: none!important;
+    }
+
+}
+
+/*---------------------------------------*/
+/*  1280px <= width < 1680px
+/*---------------------------------------*/
+@media only screen and (max-width: 1679px)
+{
+    /* Hide */
+    .hide-above-1680 {
+        display: block;
+    }
+    
+    .hide-below-1680,
+    .hide-above-1280,
+    .hide-above-1024,
+    .hide-above-960,
+    .hide-above-768,
+    .hide-above-640,
+    .hide-above-480,
+    .hide-above-420,
+    .hide-above-320 {
+        display: none!important;
+    }
+
+}
+
+/*---------------------------------------*/
+/* 1136px <= width < 1280px
+/*---------------------------------------*/
+@media only screen and (max-width: 1279px) {
+
+}
+
+/*---------------------------------------*/
+/* 1024px <= width < 1136px
+/*---------------------------------------*/
+@media only screen and (max-width: 1135px)
+{
+    /* Hide */
+    .hide-above-1280 {
+        display: block!important;
+    }
+    
+    .hide-below-1280 {
+        display: none!important;
+    }
+
+    /* Grid */
+    /* force to grid-4 */
+    .grid.grid-6 .item,
+    .grid.grid-5 .item {
+        width: 23%;
+    }
+    .grid.grid-6 .item.double,
+    .grid.grid-5 .item.double {
+        width: 48%;
+    }
+
+    /* grids in sidebar */
+    /* force to grid-1 */
+    #sidebar .grid.grid-6 .item,
+    #sidebar .grid.grid-5 .item,
+    #sidebar .grid.grid-4 .item,
+    #sidebar .grid.grid-3 .item,
+    #sidebar .grid.grid-2 .item {
+        width: 98%;
+    }
+    #sidebar .grid.grid-6 .item.double,
+    #sidebar .grid.grid-5 .item.double,
+    #sidebar .grid.grid-4 .item.double,
+    #sidebar .grid.grid-3 .item.double,
+    #sidebar .grid.grid-2 .item.double {
+        width: 98%;
+    }
+
+    /* Cart total price */
+    .header-v1 #header_shopping_cart .ajax_cart_total {
+        display: none!important;
+    }
+
+    /* Adjust header */
+    .header-v1 #header_menu {
+        width: 66%!important;
+    }
+
+    .header-v1 #header_right {
+        width: 15%!important;
+    }
+
+    /* Category Page */
+    .sortPagiBar > .align-right {
+        float: none;
+    }
+
+    .sortPagiBar .compare-form{
+        display: none;
+    }
+
+    .grid .item-buttons .compare {
+        display: none;
+    }
+
+    /* Product Page */
+    .pb-left-column {
+        width: 32%;
+    }
+
+    .pb-center-column {
+
+    }
+
+    .pb-right-column {
+        width: 32%;
+    }
+
+}
+
+/*---------------------------------------*/
+/* 960px <= width < 1024px
+/*---------------------------------------*/
+@media only screen and (max-width: 1023px)
+{
+    /* Hide */
+    .hide-above-1024 {
+        display: block!important;
+    }
+
+    .hide-below-1024 {
+        display: none!important;
+    }
+
+    /* Row */
+    .row {
+        padding: 0 30px;
+    }
+
+    /* Tablet Hover Animation Fix */
+    .hover-tablet-fix {
+        display: none!important;
+    }
+
+    /* Grid */
+    /* force to grid-3 */
+    .grid.grid-6 .item,
+    .grid.grid-5 .item,
+    .grid.grid-4 .item {
+        width: 31.333%;
+    }
+    .grid.grid-6 .item.double,
+    .grid.grid-5 .item.double,
+    .grid.grid-4 .item.double {
+        width: 64.666%;
+    }
+
+    /* Font sizes */
+    h1 {
+        font-size: 24px!important;
+    }
+
+    /* Headers */
+    #header_bottom {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .header-v1 #logo,
+    .header-v1 #header_right,
+    .header-v2 #logo,
+    .header-v2 #header_right,
+    .header-v3 #header_right {
+        margin-right: 0;
+        margin-left: 0;
+        width: 80%!important;
+    }
+
+    /* Search */
+    #header_right #header_search_wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    #header_right .search_block_top_form {
+        display: block;
+        position: relative;
+        top: 0;
+        padding: 0;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #header_right .search_block_top_form:before,
+    #header_right .search_block_top_form:after {
+        display: none;
+        border: none;
+        position: relative;
+    }
+
+    #header_right .search_query_icon {
+        position: absolute;
+        cursor: auto;
+        right: 0;
+        z-index: 2;
+    }
+
+    #header_right #search_query_top {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    /* Tabs */
+    .tabs .tab-titles {
+        display: none;
+    }
+
+    .tabs .tab-contents {
+        padding: 0;
+    }
+
+    .tabs .tab-contents .tab-content {
+        margin-bottom: 5px;
+    }
+
+    .tabs .tab-contents .tab-content-wrapper .tab-title {
+        display: block;
+    }
+
+}
+
+/*---------------------------------------*/
+/* 768px <= width < 960px
+/*---------------------------------------*/
+@media only screen and (max-width: 959px)
+{
+    /* Hide */
+    .hide-above-960 {
+        display: block!important;
+    }
+
+    .hide-below-960 {
+        display: none!important;
+    }
+
+    /* Row */
+    .row {
+        padding: 0 20px;
+    }
+
+    .boxed .row {
+        padding: 0 20px;
+    }
+
+    .row.fullwidth-row,
+    .row.fullwidth-row .row,
+    .boxed .row.fullwidth-row .row,
+    .boxed .row.fullwidth-row .row {
+        padding: 0;
+    }
+
+    /* Grid */
+    /* force to grid-2 earlier if sidebar enabled*/
+    .sidebar-enabled .grid.grid-6 .item,
+    .sidebar-enabled .grid.grid-5 .item,
+    .sidebar-enabled .grid.grid-4 .item,
+    .sidebar-enabled .grid.grid-3 .item {
+        width: 48%;
+    }
+    .sidebar-enabled .grid.grid-6 .item.double,
+    .sidebar-enabled .grid.grid-5 .item.double,
+    .sidebar-enabled .grid.grid-4 .item.double,
+    .sidebar-enabled .grid.grid-3 .item.double {
+        width: 98%;
+    }
+
+    /* Grid - List View */
+    /* Upper container */
+    .grid.list .item-upper-container {
+        width: 40%;
+    }
+
+    /* Details */
+    .grid.list .item-details {
+        width: 58%;
+    }
+
+    /* Product Page */
+    .pb-left-column {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        padding: 0 50px;
+    }
+
+    .pb-center-column {
+        width: 49%;
+        margin-left: 0;
+    }
+
+    .pb-right-column {
+        width: 49%;
+    }
+
+    /* Form and Form Elements */
+    .box .form-group {
+        max-width: 400px;
+    }
+
+}
+
+/*---------------------------------------*/
+/* 640px <= width < 768px
+/*---------------------------------------*/
+@media only screen and (max-width: 767px)
+{
+    /* Hide */
+    .hide-above-768 {
+        display: block!important;
+    }
+
+    .hide-below-768 {
+        display: none!important;
+    }
+
+    /* Columns */
+    .column {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .column:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    /* 16-columns */
+    .col-1-16,
+    .col-2-16,
+    .col-3-16,
+    .col-4-16,
+    .col-5-16,
+    .col-6-16,
+    .col-7-16,
+    .col-8-16,
+    .col-9-16,
+    .col-10-16,
+    .col-11-16,
+    .col-12-16,
+    .col-13-16,
+    .col-14-16,
+    .col-15-16,
+    .col-16-16 {
+        width: 100%;
+    }
+
+    .push-1-16,
+    .push-2-16,
+    .push-3-16,
+    .push-4-16,
+    .push-5-16,
+    .push-6-16,
+    .push-7-16,
+    .push-8-16,
+    .push-9-16,
+    .push-10-16,
+    .push-11-16,
+    .push-12-16,
+    .push-13-16,
+    .push-14-16,
+    .push-15-16,
+    .pull-1-16,
+    .pull-2-16,
+    .pull-3-16,
+    .pull-4-16,
+    .pull-5-16,
+    .pull-6-16,
+    .pull-7-16,
+    .pull-8-16,
+    .pull-9-16,
+    .pull-10-16,
+    .pull-11-16,
+    .pull-12-16,
+    .pull-13-16,
+    .pull-14-16,
+    .pull-15-16 {
+        left: auto;
+        right: auto;
+    }
+
+    /* 12-columns */
+    .col-1-12,
+    .col-2-12,
+    .col-3-12,
+    .col-4-12,
+    .col-5-12,
+    .col-6-12,
+    .col-7-12,
+    .col-8-12,
+    .col-9-12,
+    .col-10-12,
+    .col-11-12,
+    .col-12-12 {
+        width: 100%;
+    }
+
+    .push-1-12,
+    .push-2-12,
+    .push-3-12,
+    .push-4-12,
+    .push-5-12,
+    .push-6-12,
+    .push-7-12,
+    .push-8-12,
+    .push-9-12,
+    .push-10-12,
+    .push-11-12,
+    .push-12-12,
+    .pull-1-12,
+    .pull-2-12,
+    .pull-3-12,
+    .pull-4-12,
+    .pull-5-12,
+    .pull-6-12,
+    .pull-7-12,
+    .pull-8-12,
+    .pull-9-12,
+    .pull-10-12,
+    .pull-11-12,
+    .pull-12-12 {
+        left: auto;
+        right: auto;
+    }
+
+    /* Grid */
+    /* force to grid-2 */
+    .grid.grid-6 .item,
+    .grid.grid-5 .item,
+    .grid.grid-4 .item,
+    .grid.grid-3 .item,
+    .sidebar-enabled .grid.grid-6 .item,
+    .sidebar-enabled .grid.grid-5 .item,
+    .sidebar-enabled .grid.grid-4 .item,
+    .sidebar-enabled .grid.grid-3 .item {
+        width: 48%;
+    }
+    .grid.grid-6 .item.double,
+    .grid.grid-5 .item.double,
+    .grid.grid-4 .item.double,
+    .grid.grid-3 .item.double,
+    .sidebar-enabled .grid.grid-6 .item.double,
+    .sidebar-enabled .grid.grid-5 .item.double,
+    .sidebar-enabled .grid.grid-4 .item.double,
+    .sidebar-enabled .grid.grid-3 .item.double {
+        width: 98%;
+    }
+
+    /* grids in sidebar - upscaling */
+    /* force to grid-4 */
+    #sidebar .grid.grid-6 .item,
+    #sidebar .grid.grid-5 .item,
+    #sidebar .grid.grid-4 .item,
+    #sidebar .grid.grid-3 .item,
+    #sidebar .grid.grid-2 .item,
+    #sidebar .grid.grid-1 .item {
+        width: 23%;
+    }
+    #sidebar .grid.grid-6 .item.double,
+    #sidebar .grid.grid-5 .item.double,
+    #sidebar .grid.grid-4 .item.double,
+    #sidebar .grid.grid-3 .item.double,
+    #sidebar .grid.grid-2 .item.double,
+    #sidebar .grid.grid-1 .item.double {
+        width: 48%;
+    }
+
+    /* Headers */
+    #header_top .align-right{
+        float: none;
+    }
+
+    .header-v1 #logo,
+    .header-v1 #header_right,
+    .header-v2 #logo,
+    .header-v2 #header_right,
+    .header-v3 #header_right {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%!important;
+    }
+
+    /* Category Header */
+    #category-header .category-name,
+    #category-header .breadcrumb-wrapper {
+        text-align: center;
+    }
+
+    #category-header .one-row > .category-name {
+        padding: 20px 0;
+    }
+
+    /* Form and Form Elements */
+    .box .form-group {
+        max-width: 300px;
+    }
+
+    /* Responsive Table - Shopping cart specific rules */
+    .wpresponsivetable-wrapper #cart_summary td {
+        min-width: 50px;
+    }
+
+    .wpresponsivetable-wrapper #cart_summary td.cart_description {
+        min-width: 200px;
+    }
+
+    .wpresponsivetable-wrapper #cart_summary tr.cart_total_price > td:first-child,
+    .wpresponsivetable-wrapper #cart_summary tr.cart_total_delivery > td:first-child,
+    .wpresponsivetable-wrapper #cart_summary tr.cart_total_voucher > td:first-child,
+    .wpresponsivetable-wrapper #cart_summary tr.cart_total_tax > td:first-child {
+        text-align: right;
+    }
+
+    /* Layer Cart */
+    #layer_cart .layer_cart_product {
+        margin-bottom: 0;
+        border-bottom: 1px solid #d7dce2;
+    }
+
+}
+
+/*---------------------------------------*/
+/* 480px <= width < 640px
+/*---------------------------------------*/
+@media only screen and (max-width: 639px)
+{
+    /* Hide */
+    .hide-above-640 {
+        display: block!important;
+    }
+    
+    .hide-below-640 {
+        display: none!important;
+    }
+
+    /* Category Page */
+    .sortPagiBar .category-view-type {
+        clear: both;
+        float: none;
+        margin: 0 0 20px 0;
+    }
+
+    /* grids in sidebar - upscaling */
+    /* force to grid-3 */
+    #sidebar .grid.grid-6 .item,
+    #sidebar .grid.grid-5 .item,
+    #sidebar .grid.grid-4 .item,
+    #sidebar .grid.grid-3 .item,
+    #sidebar .grid.grid-2 .item,
+    #sidebar .grid.grid-1 .item {
+        width: 31.333%;
+    }
+    #sidebar .grid.grid-6 .item.double,
+    #sidebar .grid.grid-5 .item.double,
+    #sidebar .grid.grid-4 .item.double,
+    #sidebar .grid.grid-3 .item.double,
+    #sidebar .grid.grid-2 .item.double,
+    #sidebar .grid.grid-1 .item.double {
+        width: 64.666%;
+    }
+
+    /* Footer Grid */
+    /* force to grid-1 */
+    #main-footer .grid-6 .item,
+    #main-footer .grid-5 .item,
+    #main-footer .grid-4 .item,
+    #main-footer .grid-3 .item,
+    #main-footer .grid-2 .item {
+        width: 98%;
+    }
+
+    /* Footer collapsables */
+    #main-footer .footer-block > h4 > span {
+        display: block;
+        float: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #main-footer .footer-block > div {
+        display: none;
+    }
+
+    /* Authentication Page */
+    #authentication #create-account_form,
+    #authentication #login_form {
+        margin: 0 0 20px 0;
+    }
+
+    /* Product Page */
+    .pb-left-column {
+        padding: 0 15px;
+    }
+}
+
+/*---------------------------------------*/
+/* 420px <= width < 480px
+/*---------------------------------------*/
+@media only screen and (max-width: 479px)
+{
+    /* Hide */
+    .hide-above-480 {
+        display: block!important;
+    }
+
+    .hide-below-480 {
+        display: none!important;
+    }
+
+    /* grids in sidebar - upscaling */
+    /* force to grid-2 */
+    #sidebar .grid.grid-6 .item,
+    #sidebar .grid.grid-5 .item,
+    #sidebar .grid.grid-4 .item,
+    #sidebar .grid.grid-3 .item,
+    #sidebar .grid.grid-2 .item,
+    #sidebar .grid.grid-1 .item {
+        width: 48%;
+    }
+    #sidebar .grid.grid-6 .item.double,
+    #sidebar .grid.grid-5 .item.double,
+    #sidebar .grid.grid-4 .item.double,
+    #sidebar .grid.grid-3 .item.double,
+    #sidebar .grid.grid-2 .item.double,
+    #sidebar .grid.grid-1 .item.double {
+        width: 98%;
+    }
+
+    /* Grid - List View */
+    /* Upper container */
+    .grid.list .item-upper-container {
+        float: none;
+        clear: both;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Details */
+    .grid.list .item-details {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+
+    /* My Account */
+    /* Order History */
+    #history .order-detail-button {
+        margin: 0 0 10px 0;
+    }
+
+    /* Footer Links */
+    .footer_links > li {
+        float: none!important;
+        margin: 0 0 10px 0!important;
+    }
+
+    /* Cart Navigation Buttons */
+    .cart_navigation {
+        text-align: center;
+    }
+
+    .cart_navigation > a,
+    .cart_navigation > button {
+        display: block;
+        float: none!important;
+        margin: 10px auto;
+    }
+
+    /* Product Page */
+    .pb-left-column {
+        padding: 0;
+    }
+
+}
+
+/*---------------------------------------*/
+/* 320px <= width < 420px
+/*---------------------------------------*/
+@media only screen and (max-width: 419px)
+{
+    /* Hide */
+    .hide-above-420 {
+        display: block!important;
+    }
+
+    .hide-below-420 {
+        display: none!important;
+    }
+
+    /* Grid */
+    /* force to grid-1 */
+    .grid.grid-6 .item,
+    .grid.grid-5 .item,
+    .grid.grid-4 .item,
+    .grid.grid-3 .item,
+    .grid.grid-2 .item,
+    .sidebar-enabled .grid.grid-6 .item,
+    .sidebar-enabled .grid.grid-5 .item,
+    .sidebar-enabled .grid.grid-4 .item,
+    .sidebar-enabled .grid.grid-3 .item,
+    .sidebar-enabled .grid.grid-2 .item {
+        width: 98%;
+    }
+    .grid.grid-6 .item.double,
+    .grid.grid-5 .item.double,
+    .grid.grid-4 .item.double,
+    .grid.grid-3 .item.double,
+    .grid.grid-2 .item.double,
+    .sidebar-enabled .grid.grid-6 .item.double,
+    .sidebar-enabled .grid.grid-5 .item.double,
+    .sidebar-enabled .grid.grid-4 .item.double,
+    .sidebar-enabled .grid.grid-3 .item.double,
+    .sidebar-enabled .grid.grid-2 .item.double {
+        width: 98%;
+    }
+
+    /* grids in sidebar - upscaling */
+    /* force to grid-2 */
+    #sidebar .grid.grid-6 .item,
+    #sidebar .grid.grid-5 .item,
+    #sidebar .grid.grid-4 .item,
+    #sidebar .grid.grid-3 .item,
+    #sidebar .grid.grid-2 .item,
+    #sidebar .grid.grid-1 .item {
+        width: 98%;
+    }
+
+    /* Form and Form Elements */
+    .box .form-group {
+        width: 100%;
+    }
+
+    /* Layer Cart */
+    #layer_cart .layer_cart_cart .button-container {
+        width: 90%;
+    }
+
+    #layer_cart .crossseling .title-1 .align-right {
+        display: none;
+    }
+
+    /* Authentication Page */
+    #authentication #create-account_form,
+    #authentication #login_form {
+        min-width: 0;
+        min-height: 0;
+    }
+
+    /* Delivery options table */
+    #order .delivery_option .delivery_option_logo,
+    #order-opc .delivery_option .delivery_option_logo {
+        display: none;
+    }
+
+    /* Product navigation links */
+    #product-navigation-links #product-prev-link,
+    #product-navigation-links #product-next-link {
+        padding: 10px 25px;
+    }
+
+    #product-navigation-links .button-text {
+        display: none;
+    }
+
+    #product-navigation-links .wpicon {
+        margin: 0!important;
+    }
+}
+
+/*---------------------------------------*/
+/* 0px <= width < 320px
+/*---------------------------------------*/
+@media only screen and (max-width: 319px)
+{
+    /* Hide */
+    .hide-above-320 {
+        display: block!important;
+    }
+
+    .hide-below-320 {
+        display: none!important;
+    }
+
+    /* grids in sidebar - upscaling */
+    /* force to grid-1 */
+    #sidebar .grid.grid-6 .item,
+    #sidebar .grid.grid-5 .item,
+    #sidebar .grid.grid-4 .item,
+    #sidebar .grid.grid-3 .item,
+    #sidebar .grid.grid-1 .item {
+        width: 98%;
+    }
+
+}
+

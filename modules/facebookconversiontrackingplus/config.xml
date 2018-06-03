@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>facebookconversiontrackingplus</name>
+	<displayName><![CDATA[Facebook Conversion Tracking Pixel Plus]]></displayName>
+	<version><![CDATA[1.8.0]]></version>
+	<description><![CDATA[Multiple Facebook Conversion Tracking Pixels: Checkouts, Registrations, Leads, Keypages... all Facebook Conversion Tracking Pixels in one module, Multi-Pixel Ready]]></description>
+	<author><![CDATA[Smart Modules]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to remove all your Facebook Pixels?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

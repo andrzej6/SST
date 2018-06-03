@@ -1,0 +1,519 @@
+/*---------------------------------------------------------------*/
+/* 
+/*  Withinpixels Theme Framework v1.0 - iconfont.css
+/*
+/*  This file created as a part of the "Withinpixels Theme
+/*  Framework" and all of the codes below created solely for
+/*  "Autumn - Prestashop Theme". Content of this file cannot
+/*  be copied for an outside personal/commercial project.
+/*
+/*  All rights are reserved.
+/*
+/*---------------------------------------------------------------*/
+
+/*----------------------------------------------------------*/
+/* General Font Styles
+/*----------------------------------------------------------*/
+@font-face {
+    font-family: 'wpicon';
+    src:url('iconfont/wpicon.eot?-egd5ky');
+    src:url('iconfont/wpicon.eot?#iefix-egd5ky') format('embedded-opentype'),
+        url('iconfont/wpicon.woff?-egd5ky') format('woff'),
+        url('iconfont/wpicon.ttf?-egd5ky') format('truetype'),
+        url('iconfont/wpicon.svg?-egd5ky#wpicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.wpicon,
+[class*="wpicon-"] {
+    font-family: 'wpicon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: normal;
+
+    font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="wpicon-"].small {
+    font-size: 10px;
+    position: relative;
+}
+
+[class*="wpicon-"].medium {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+[class*="wpicon-"].medium2 {
+    font-size: 24px;
+    position: relative;
+    top: 2px;
+}
+
+[class*="wpicon-"].large {
+    font-size: 32px;
+    position: relative;
+    top: 2px;
+}
+
+[class*="wpicon-"].xlarge {
+    font-size: 48px;
+    position: relative;
+    top: 2px;
+}
+
+[class*="wpicon-"].errorColor {
+    color: #b94a48;
+}
+
+[class*="wpicon-"].successColor {
+    color: #468847;
+}
+
+[class*="wpicon-"].warningColor {
+    color: #c09853;
+}
+
+[class*="wpicon-"].infoColor {
+    color: #3a87ad;
+}
+
+[class*="wpicon-"].disabled {
+    color: #84888f!important;
+    cursor: default !important;
+}
+
+[data-icon]:before {
+    font-family: 'wpicon';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+
+    font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*----------------------------------------------------------*/
+/* List Icons
+/*----------------------------------------------------------*/
+[class*="list-icon"] li {
+    position: relative;
+    margin: 3px 0;
+    padding-left: 20px;
+}
+
+[class*="list-icon-"] li:before {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    content: ' ';
+    float: left;
+    margin-right: 0;
+    margin-left: -20px;
+
+    font-family: 'wpicon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+
+    font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.list-icon-bullet li:before {
+    content: "\e655";
+}
+
+.list-icon-star li:before {
+    content: "\e61b";
+}
+
+.list-icon-heart li:before {
+    content: "\e619";
+}
+
+.list-icon-arrow li:before {
+    content: "\e62c";
+}
+
+.list-icon-excmark li:before {
+    content: "\e659";
+}
+
+/*----------------------------------------------------------------*/
+/* Custom List Icons Setup -different icons for every list item-
+/*----------------------------------------------------------------*/
+.list-icon-custom li {
+    padding-left: 24px!important;
+}
+
+.list-icon-custom li .wpicon {
+    position: absolute;
+    left: 0;
+}
+
+/*----------------------------------------------------------------*/
+/* Iconed Text
+/*----------------------------------------------------------------*/
+.iconed-text {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+}
+
+.iconed-text > .wpicon {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: block;
+}
+
+/*----------------------------------------------------------*/
+/* Icon Styles
+/*----------------------------------------------------------*/
+
+.wpicon-search:before {
+    content: "\e65f";
+}
+.wpicon-chevron-left:before {
+    content: "\e661";
+}
+.wpicon-chevron-right:before {
+    content: "\e660";
+}
+.wpicon-chevron-up:before {
+    content: "\e65d";
+}
+.wpicon-chevron-down:before {
+    content: "\e65e";
+}
+.wpicon-home2:before {
+    content: "\e607";
+}
+.wpicon-home:before {
+    content: "\e600";
+}
+.wpicon-image:before {
+    content: "\e601";
+}
+.wpicon-megaphone:before {
+    content: "\e63e";
+}
+.wpicon-file:before {
+    content: "\e603";
+}
+.wpicon-file2:before {
+    content: "\e613";
+}
+.wpicon-stack:before {
+    content: "\e604";
+}
+.wpicon-tag:before {
+    content: "\e606";
+}
+.wpicon-barcode:before {
+    content: "\e640";
+}
+.wpicon-ticket:before {
+    content: "\e605";
+}
+.wpicon-cart:before {
+    content: "\e608";
+}
+.wpicon-coins:before {
+    content: "\e609";
+}
+.wpicon-support:before {
+    content: "\e611";
+}
+.wpicon-phone:before {
+    content: "\e612";
+}
+.wpicon-address-book:before {
+    content: "\e60b";
+}
+.wpicon-envelop:before {
+    content: "\e60a";
+}
+
+
+.wpicon-pencil:before {
+    content: "\e60a";
+}
+
+.wpicon-location:before {
+    content: "\e60c";
+}
+.wpicon-clock:before {
+    content: "\e60e";
+}
+.wpicon-alarm:before {
+    content: "\e60d";
+}
+.wpicon-calendar:before {
+    content: "\e60f";
+}
+.wpicon-box:before {
+    content: "\e657";
+}
+.wpicon-undo:before {
+    content: "\e614";
+}
+.wpicon-bubble-dots:before {
+    content: "\e610";
+}
+.wpicon-user:before {
+    content: "\e615";
+}
+.wpicon-vcard:before {
+    content: "\e63d";
+}
+.wpicon-contract:before {
+    content: "\e63c";
+}
+.wpicon-cog:before {
+    content: "\e641";
+}
+.wpicon-factory:before {
+    content: "\e61e";
+}
+.wpicon-gift:before {
+    content: "\e658";
+}
+.wpicon-medal:before {
+    content: "\e61d";
+}
+.wpicon-remove:before {
+    content: "\e620";
+}
+.wpicon-truck:before {
+    content: "\e61c";
+}
+.wpicon-power:before {
+    content: "\e28e";
+}
+.wpicon-list:before {
+    content: "\e622";
+}
+.wpicon-list2:before {
+    content: "\e623";
+}
+.wpicon-grid:before {
+    content: "\e621";
+}
+.wpicon-circle-small:before {
+    content: "\e655";
+}
+.wpicon-menu:before {
+    content: "\e624";
+}
+.wpicon-cloud:before {
+    content: "\e2b5";
+}
+.wpicon-download:before {
+    content: "\e61f";
+}
+.wpicon-link:before {
+    content: "\e2c9";
+}
+.wpicon-flag:before {
+    content: "\e625";
+}
+.wpicon-eye2:before {
+    content: "\e617";
+}
+.wpicon-eye:before {
+    content: "\e616";
+}
+.wpicon-star:before {
+    content: "\e61a";
+}
+.wpicon-star2:before {
+    content: "\e61b";
+}
+.wpicon-heart2:before {
+    content: "\e619";
+}
+.wpicon-heart:before {
+    content: "\e618";
+}
+.wpicon-notification:before {
+    content: "\e628";
+}
+.wpicon-notification2:before {
+    content: "\e659";
+}
+.wpicon-question2:before {
+    content: "\e65c";
+}
+.wpicon-question:before {
+    content: "\e65b";
+}
+.wpicon-info:before {
+    content: "\e629";
+}
+.wpicon-info2:before {
+    content: "\e65a";
+}
+.wpicon-close:before {
+    content: "\e626";
+}
+.wpicon-checkmark:before {
+    content: "\e627";
+}
+.wpicon-minus:before {
+    content: "\e633";
+}
+.wpicon-plus:before {
+    content: "\e632";
+}
+.wpicon-shuffle:before {
+    content: "\e3aa";
+}
+.wpicon-shuffle2:before {
+    content: "\e3ab";
+}
+.wpicon-arrow-up2:before {
+    content: "\e62f";
+}
+.wpicon-arrow-right2:before {
+    content: "\e630";
+}
+.wpicon-arrow-down2:before {
+    content: "\e631";
+}
+.wpicon-arrow-left3:before {
+    content: "\e654";
+}
+.wpicon-arrow-up:before {
+    content: "\e62b";
+}
+.wpicon-arrow-right:before {
+    content: "\e62c";
+}
+.wpicon-arrow-down:before {
+    content: "\e62d";
+}
+.wpicon-arrow-left:before {
+    content: "\e62e";
+}
+.wpicon-arrow-square:before {
+    content: "\e637";
+}
+.wpicon-arrow-right3:before {
+    content: "\e634";
+}
+.wpicon-arrow-down3:before {
+    content: "\e635";
+}
+.wpicon-arrow-left2:before {
+    content: "\e636";
+}
+.wpicon-menu2:before {
+    content: "\e418";
+}
+.wpicon-transmission2:before {
+    content: "\e63b";
+}
+.wpicon-transmission:before {
+    content: "\e63a";
+}
+.wpicon-square:before {
+    content: "\e63f";
+}
+.wpicon-checkbox-checked:before {
+    content: "\e639";
+}
+.wpicon-checkbox-unchecked:before {
+    content: "\e642";
+}
+.wpicon-radio-checked:before {
+    content: "\e638";
+}
+.wpicon-radio-unchecked:before {
+    content: "\e643";
+}
+.wpicon-circle:before {
+    content: "\e62a";
+}
+.wpicon-google-plus:before {
+    content: "\e650";
+}
+.wpicon-facebook:before {
+    content: "\e644";
+}
+.wpicon-instagram:before {
+    content: "\e646";
+}
+.wpicon-twitter:before {
+    content: "\e645";
+}
+.wpicon-feed:before {
+    content: "\e647";
+}
+.wpicon-youtube:before {
+    content: "\e602";
+}
+.wpicon-vimeo:before {
+    content: "\e648";
+}
+.wpicon-flickr:before {
+    content: "\e649";
+}
+.wpicon-dribbble:before {
+    content: "\e64a";
+}
+.wpicon-forrst:before {
+    content: "\e64b";
+}
+.wpicon-deviantart:before {
+    content: "\e64c";
+}
+.wpicon-wordpress:before {
+    content: "\e64f";
+}
+.wpicon-blogger:before {
+    content: "\e64d";
+}
+.wpicon-tumblr:before {
+    content: "\e64e";
+}
+.wpicon-skype:before {
+    content: "\e651";
+}
+.wpicon-reddit:before {
+    content: "\e652";
+}
+.wpicon-linkedin:before {
+    content: "\e653";
+}
+.wpicon-pinterest:before {
+    content: "\e656";
+}

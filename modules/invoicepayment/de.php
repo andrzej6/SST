@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_ac1d69cbf772509f137f1b4db51a60ac'] = 'Zahlung auf Rechnung';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_a2108b01755fe2b47655de22c8514abc'] = 'Zahlung auf Rechnung akzeptieren';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_7f40d377cc4942c4f0d6e75a736f8445'] = 'Einstellungen erfolgreich aktualisiert';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_254f642527b45bc260048e30704edb39'] = 'Konfiguration';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_585328c410f1dee93975c12abbd371fe'] = 'Anzahl der Rechnungen';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_ead805a42171f53cc8cbb50fd9b4e3b3'] = 'Ab wieviel Bestellungen sollte sollte eine Rechnungszahlung möglich sein? Lassen Sie das Feld leer, um Zahlung auf Rechnung ab 1. Bestellung zu zulassen.';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_72f9145d082d692e79305b334e619b1c'] = 'Limitbetrag';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_1c6f2a6a916d94b37b00bc68e04067e5'] = 'Bitte den Höchstbetrag eingeben, für den eine Rechnungszahlung zulässig ist.';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_0133c7a0fa55069df27f8d9be2c6ab89'] = 'Bestellstatus';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_49ee3087348e8d44e1feda1917443987'] = 'Name';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_e404d7ed1f4b956b18857840c85140f8'] = 'Zahlungstermine';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_03937134cedab9078be39a77ee3a48a0'] = 'Gruppe';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_e807d3ccf8d24c8c1a3d86db5da78da8'] = 'Tage';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_1ab1dfd9dc24ea4729d6c032f7f0342d'] = 'Zahlungsinfo';
+$_MODULE['<{invoicepayment}prestashop>invoicepayment_c9cc8cce247e49bae79f15173ce97354'] = 'Speichern';
+$_MODULE['<{invoicepayment}prestashop>validation_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Versand';
+$_MODULE['<{invoicepayment}prestashop>validation_0c25b529b4d690c39b0831840d0ed01c'] = 'Bestellzusammenfassung';
+$_MODULE['<{invoicepayment}prestashop>validation_952c511af786a11129140f537c6bc5b4'] = 'Zahlung auf Rechnung';
+$_MODULE['<{invoicepayment}prestashop>validation_e0d7a6ec1c1101b1b8b6e5d1b94c38d4'] = 'Sie haben Zahlung auf Rechnung als Rechnungsart gewählt.';
+$_MODULE['<{invoicepayment}prestashop>validation_e2867a925cba382f1436d1834bb52a1c'] = 'Der Gesamtbetrag Ihrer Bestellung beträgt';
+$_MODULE['<{invoicepayment}prestashop>validation_1f87346a16cf80c372065de3c54c86d9'] = '(inkl. MwSt.)';
+$_MODULE['<{invoicepayment}prestashop>validation_0881a11f7af33bc1b43e437391129d66'] = 'Bitte bestätigen Sie Ihre Bestellung mit einem Klick auf \"BESTELLEN\".';
+$_MODULE['<{invoicepayment}prestashop>validation_569fd05bdafa1712c4f6be5b153b8418'] = 'Alternative Zahlungsmethoden';
+$_MODULE['<{invoicepayment}prestashop>validation_46b9e3665f187c739c55983f757ccda0'] = 'BESTELLEN';
+$_MODULE['<{invoicepayment}prestashop>confirmation_2e2117b7c81aa9ea6931641ea2c6499f'] = 'Ihre Bestellung vom';
+$_MODULE['<{invoicepayment}prestashop>confirmation_75fbf512d744977d62599cc3f0ae2bb4'] = 'ist abgeschlossen. Vielen Dank für Ihren Einkauf!';
+$_MODULE['<{invoicepayment}prestashop>confirmation_ebe4e4e879c37c04d027193e9a912995'] = 'Sie haben Zahlung auf Rechnung als Rechnungsart gewählt.';
+$_MODULE['<{invoicepayment}prestashop>confirmation_e6dc7945b557a1cd949bea92dd58963e'] = 'Ihre Bestellung wird umgehend versandt.';
+$_MODULE['<{invoicepayment}prestashop>confirmation_0db71da7150c27142eef9d22b843b4a9'] = 'Bei Fragen oder für weitere Informationen kontaktieren Sie bitte unseren';
+$_MODULE['<{invoicepayment}prestashop>confirmation_64430ad2835be8ad60c59e7d44e4b0b1'] = 'Kundenservice';
+$_MODULE['<{invoicepayment}prestashop>invoice_cee1f6882f42955618fc1e9dedfa5695'] = 'Zahlbar bis:';
+$_MODULE['<{invoicepayment}prestashop>invoice_d5cfd0f69cd548e5d3b9edde5ff1b48f'] = 'Zahlungsinfo';
+$_MODULE['<{invoicepayment}prestashop>payment_8781b940179e3869ff36263350a8dce1'] = 'Zahlen per Rechnung';
+$_MODULE['<{invoicepayment}prestashop>payment_7691588914c922b50ad0c4b2f661ac7e'] = 'Sie Zahlen per Rechnung';

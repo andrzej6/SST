@@ -1,0 +1,18 @@
+<?php /*%%SmartyHeaderCode:1231299672549c78239f5e30-44242583%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'dbea0b525da8885c754011806879ac9f8febed45' => 
+    array (
+      0 => '/home/gbs2/public_html/prestashop/themes/autumn/modules/productscategory/productscategory.tpl',
+      1 => 1419545318,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1231299672549c78239f5e30-44242583',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_54beb1292c0561_22371045',
+  'has_nocache_code' => false,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_54beb1292c0561_22371045')) {function content_54beb1292c0561_22371045($_smarty_tpl) {?><div id="productscategory" class="page-product-box blockproductscategory"><div class="row"><div class="column col-12-12 title-1"> <span class="colored-text">4 other products in the same category</span></div></div><div id="productscategory_list" class="row"><div class="block_content column col-12-12"><div id="blockproductscategory-carousel" class="grid carousel-grid owl-carousel"><div class="product-box item"><div class="item-wrapper"><div class="item-upper-container"><div class="item-image-container white-border-3px"> <a class="img-wrapper" href="http://sit-stand.com/prestashop/desk-risers/28-varidesk-single.html" title="Varidesk Single"> <img src="http://sit-stand.com/prestashop/100-atmn_normal/varidesk-single.jpg" alt="Varidesk Single" /> </a></div></div><div class="item-details"> <a class="item-name-link" href="http://sit-stand.com/prestashop/desk-risers/28-varidesk-single.html" title="Varidesk Single"> <span class="item-name">Varidesk Single</span> </a></div></div></div><div class="product-box item"><div class="item-wrapper"><div class="item-upper-container"><div class="item-image-container white-border-3px"> <a class="img-wrapper" href="http://sit-stand.com/prestashop/desk-risers/29-varidesk-single-plus.html" title="Varidesk Single Plus"> <img src="http://sit-stand.com/prestashop/103-atmn_normal/varidesk-single-plus.jpg" alt="Varidesk Single Plus" /> </a></div></div><div class="item-details"> <a class="item-name-link" href="http://sit-stand.com/prestashop/desk-risers/29-varidesk-single-plus.html" title="Varidesk Single Plus"> <span class="item-name">Varidesk Single Plus</span> </a></div></div></div><div class="product-box item"><div class="item-wrapper"><div class="item-upper-container"><div class="item-image-container white-border-3px"> <a class="img-wrapper" href="http://sit-stand.com/prestashop/desk-risers/31-varidesk-pro-plus.html" title="Varidesk Pro Plus"> <img src="http://sit-stand.com/prestashop/109-atmn_normal/varidesk-pro-plus.jpg" alt="Varidesk Pro Plus" /> </a></div></div><div class="item-details"> <a class="item-name-link" href="http://sit-stand.com/prestashop/desk-risers/31-varidesk-pro-plus.html" title="Varidesk Pro Plus"> <span class="item-name">Varidesk Pro Plus</span> </a></div></div></div><div class="product-box item"><div class="item-wrapper"><div class="item-upper-container"><div class="item-image-container white-border-3px"> <a class="img-wrapper" href="http://sit-stand.com/prestashop/desk-risers/50-workfit-t.html" title="WorkFit-T"> <img src="http://sit-stand.com/prestashop/197-atmn_normal/workfit-t.jpg" alt="WorkFit-T" /> </a></div></div><div class="item-details"> <a class="item-name-link" href="http://sit-stand.com/prestashop/desk-risers/50-workfit-t.html" title="WorkFit-T"> <span class="item-name">WorkFit-T</span> </a></div></div></div></div></div></div></div><?php }} ?>

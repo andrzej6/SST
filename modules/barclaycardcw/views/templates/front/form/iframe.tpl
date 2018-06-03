@@ -1,0 +1,1 @@
+<iframe class="barclaycardcw-iframe" src="{$iframeUrl}" style="height: {$iframeHeight}px;"></iframe>

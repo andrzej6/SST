@@ -1,0 +1,9 @@
+button {
+    height: 37px!important;
+    padding: 0 15px!important;
+    overflow: visible;
+}
+
+#newsletter_block_left input.inputNew {
+    height: 37px;
+}

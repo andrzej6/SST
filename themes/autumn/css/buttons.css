@@ -1,0 +1,91 @@
+/*************************** IMPROVED BUTTONS*/
+/* limit height of button*/
+.yybutton {
+    line-height:12px;
+}
+
+/* link text improvements*/
+.yybutton a {
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14.3px;
+}
+
+/* centralize button + different widths + vertical*/
+.yybutton-cont {
+    margin: auto;
+    width: 220px;
+    padding: 5px;
+}
+
+/* display inline with text +keep margin*/
+.yybutton-image {
+    float:left;
+    margin-right:5px
+}
+
+/* optimize text horizontally */
+.yybutton-textcont {
+    margin-top:8px;
+}
+
+
+/* red- color specific button styles*/
+.yybutton-red {
+    border: 1px solid var(--sst-red);
+}
+
+.yybutton-red a{
+    color:var(--sst-red);
+}
+
+.yybutton-red:hover {
+    background:var(--sst-red);
+}
+
+.yybutton-red:hover > a, .yybutton-grey:hover > a {
+    color:white;
+}
+
+/* blue - color specific button styles*/
+.yybutton-blue {
+    border: 1px solid var(--sst-blue);
+}
+
+.yybutton-blue a{
+    color:var(--sst-blue);
+}
+
+.yybutton-blue:hover {
+    background:#E8E8E8;
+}
+
+/* grey - color specific button styles*/
+.yybutton-grey {
+    border: 1px solid var(--sst-red);
+	background:#E8E8E8;
+}
+
+.yybutton-grey a{
+    color:var(--sst-red);
+}
+
+.yybutton-grey:hover {
+    background:var(--sst-red);
+}
+
+.yybutton-thin {
+	float:right;
+	width:171px;
+	height:42px;
+}
+
+
+@media only screen and (min-width: 960px) and (max-width:1100px) 
+{
+    .yybutton {
+        float:left;
+        margin-bottom:10px
+    }
+}
+

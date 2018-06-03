@@ -1,0 +1,272 @@
+#cms .rte
+{
+    margin:0;
+}
+
+.normalized a:hover {
+    border:0;
+}
+
+/* use to be freetrial circle? */
+.freetrial1 {
+    cursor: pointer;
+}
+
+/* on category page, trailink not sure if neccessary */
+#category-header {
+    max-height:100px;
+}
+
+#category-header .category-name {
+    padding:0px;
+}
+
+#category-header .category-name h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+    #width: 300px;
+    margin-top: 0px;
+}
+
+#category-header .one-row > .category-name {
+    padding: 15px 0px;
+}
+
+
+#category-header .one-row > .breadcrumb-wrapper {
+    padding:0px;
+}
+
+
+
+/*couldnt find below - CUSTOMIZATION WHEN ITEM ON DISCOUNT???*/
+/* pack content  customization    */
+#pack_cont_changed {
+    margin-top: 7%;
+}
+
+#pack_cont_changed .item-wrapper {
+    margin-bottom: 3%;
+}
+
+#pack_cont_changed .item-upper-container {
+    width: 45%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+
+#pack_cont_changed .item-details {
+    font-size: 10px;
+    width:45%;
+    float:right;
+}
+
+#pack_cont_changed .item_details_changed {
+    margin-top: 15%;
+    line-height: 140%;
+}
+
+#pack_cont_changed .item-price {
+    margin-top: 5%;
+}
+
+/* product bundles elements */
+#pack_cont_changed .item-tag-discount {
+    color: white;
+    background: #d21510;
+    padding: 2px;
+}
+
+#pack_cont_changed .old-price {
+    margin-top: 0px;
+    font-size: 10px;
+    letter-spacing: -0.6px;
+}
+
+
+/* BELOW NOT SURE IF NEEDED -could not find elements */
+
+
+
+.events-table tr td{
+    border:0;
+}
+
+
+.title_block.no-bmar {
+    margin-bottom:0px;
+}
+
+.block.no-bmar {
+    margin-bottom:10px;
+}
+
+#productscategory_list .owl-buttons {
+    display:none;
+}
+
+#productscategory .title-1 {
+    margin-bottom:7px!important;
+}
+/* ABOVE NOT SURE IF NEEDED */
+
+
+/* below appear not needed on contact-us page */
+h1.page-header.contact-page {
+    padding: 10px 0;
+    border-bottom: 1px solid #d7dce2;
+    font-weight:normal;
+    font-size:29px;
+}
+
+/* megamenu sit-stand desks classes */
+
+.someclass img {
+    margin-top:-35px;
+}
+
+.someclass1 img {
+    margin-top:-59px;
+}
+
+
+/* new  megamenu freetrial, launch offer icons */
+.megam-left .normalized p {
+    margin-top:5px;
+}
+
+.megam-right .normalized p {
+    #margin:0;
+}
+
+.megam-left img {
+    margin-left:5px;
+}
+
+
+
+/*  isotope tabs Special Products */
+a.overviewclass {
+    color: #da3b44;
+}
+
+
+#center_column .my_special_class {
+    background-color:#3300ff;
+}
+
+
+/* adding bundle icon to category display */
+.item-tag-bundle {
+    display: block;
+    float: left;
+    clear: both;
+    margin: 0 0 3px 0;
+}
+
+/* when video was in images placed*/
+video {
+    border: 3px solid #da3b44;
+}
+
+.easy-video1, .easy-video2,
+.easy-video3, .easy-video4 {
+    float:left;
+    margin-right:15px;
+    margin-bottom:5px;
+}
+
+
+
+
+
+/* could not find element */
+#headerstripe a{
+    font-size: 13px;
+    color: #7BBDBD;
+    margin-left: 35px;
+    letter-spacing: -0.9px;
+}
+
+#headerstripe a:hover {
+    font-weight: bold;
+}
+
+
+/* megamenu hide element on desk riser workfit-p */
+.wpmegamenu .submenu > li.vis-hidden {
+    visibility:hidden;
+}
+
+/* below logo looks better without that styling */
+#sticky-menu-wrapper, #sticky-menu, #sticky-logo {
+    #max-height: 60px;
+}
+
+/* advert custom */
+.adv-row-1 {
+    color: #C8102E;
+}
+
+.adv-row-2 {
+    display:inline;
+    letter-spacing: -0.6px;
+}
+
+/* customization of text in product advert */
+.adv-row-3 {
+    margin-top: 7px;
+}
+
+
+
+/* custom advert instead of product display on home and category pages */
+.grid .item-hover.productborder1 {
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    min-height:80px;
+}
+
+.item-image-container.productborder:hover {
+    border-bottom: none;
+}
+
+.item-wrapper:hover .productborder {
+    border-bottom: 0;
+}
+
+.grid .item-hover.productborder1:hover {
+    border-top:none;
+}
+
+.grid .item .productborder {
+    padding: 0px;
+    -webkit-box-shadow: 0 0 0 3px rgba(218, 59, 68, 0.2), 0 3px 3px 0 rgba(218, 59, 68, 0.4), 0 4px 3px 0 rgba(218, 59, 68, 0.2);
+    -moz-box-shadow: 0 0 0 3px rgba(218, 59, 68, 0.2), 0 3px 3px 0 rgba(218, 59, 68, 0.4), 0 4px 3px 0 rgba(218, 59, 68, 0.2);
+    box-shadow: 0 0 0 3px rgba(218, 59, 68, 0.2), 0 3px 3px 0 rgba(218, 59, 68, 0.4), 0 4px 3px 0 rgba(218, 59, 68, 0.2);
+}
+
+.grid .item-hover.productborder1 {
+    -webkit-box-shadow: 2px 2px 3px rgba(218, 59, 68, 0.5), -3px 2px 3px rgba(218, 59, 68, 0.35);
+    -moz-box-shadow: 2px 2px 3px rgba(218, 59, 68, 0.5), -3px 2px 3px rgba(218, 59, 68, 0.35);
+    box-shadow: 2px 2px 3px rgba(218, 59, 68, 0.5), -3px 2px 3px rgba(218, 59, 68, 0.35);
+}
+
+.item-wrapper .button-1.fill {
+    background: #1464a0;
+}
+
+.item-wrapper .productborder1 .button-1.fill {
+    background: #e43d46;
+}
+
+.item-wrapper .productborder2 .button-1.fill {
+    background: #2f916c;
+}
+
+/* discount price if exist  */
+#reduction_amount_display {
+    color:var(--sst-red);
+}

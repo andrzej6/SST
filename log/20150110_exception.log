@@ -1,0 +1,10 @@
+*ERROR* 	2015/01/10 - 01:24:19: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_product = 15 LIMIT 1' at line 4<br /><br /><pre>
+            SELECT position
+			FROM ps_category_product
+            WHERE id_category = 
+            AND id_product = 15 LIMIT 1</pre> at line 635 in file classes/db/Db.php
+*ERROR* 	2015/01/10 - 04:03:52: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id_product = 15 LIMIT 1' at line 4<br /><br /><pre>
+            SELECT position
+			FROM ps_category_product
+            WHERE id_category = 
+            AND id_product = 15 LIMIT 1</pre> at line 635 in file classes/db/Db.php

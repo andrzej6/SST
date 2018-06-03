@@ -1,0 +1,32 @@
+.corporate-pre-text1 {
+    font-size:16px;
+}
+
+
+
+.corporate-checkboxes {
+    margin-left:15px;
+}
+
+
+.box .corporate-checkboxes input[type="checkbox"] {
+    margin-top:5px;
+    color: #da3b44;
+}
+
+
+
+.corporate-olistmain {
+    font-size:16px;
+    color:#da3b44; 
+}
+
+
+.corporate-olist-text {
+    color:#565b64;
+    margin-left:18px;
+}
+
+.corporate-redtext {
+    color:#da3b44;
+}#freetrial-add {	display:none;}#freetrial-add input[type=checkbox] {  margin-top:1px;}.redtext {  color:#da3b44;}.corporate-denotes {  color:#da3b44;}a#redtext-a {  color:#da3b44;  text-decoration:underline;}@media only screen and (min-width: 760px) {.freetrial-wide {  min-width:150px;  display:inline-block;}}

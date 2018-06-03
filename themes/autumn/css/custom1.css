@@ -1,0 +1,283 @@
+/* ------------------------------------------------------------------------ */
+/* Use this file to overwrite css rules from any css file. This way you
+/* won't lose any of your modifications after updating the theme.
+/* ------------------------------------------------------------------------ */
+
+.clients-block .client-one { width:168px; height:108px; float:left; margin:0 10px 10px 0px;  }
+.clients-block .client-one a { width:168px; height:108px; display:block;border:1px solid #cdcdcd;  }
+
+:root {
+    --sst-red: #da3b44;
+    --sst-blue:#0092bc;
+    --sst-grey:grey;
+
+}
+
+body {
+    /* Empty body tag to prevent not found error */
+}
+
+
+/* --------------------------------------------------- FOR ALL PAGES ----------------------------  */
+/* ON TOP BLACK STRIPE */
+.phone-large
+{
+    font-size:1.3em;
+}
+
+
+/* logo picture to have gap btw when hover on megamenu element */
+#logo  img {
+    margin-top: 5px;
+}
+
+
+/* smaller screen sitelock and verified logos */
+@media only screen and (max-width: 1300px) {
+
+    #visa_logo, #sitelock_shield_logo {
+        display:none;
+    }
+}
+
+/* smaller screen sitelock and verified logos */
+@media only screen and (max-width: 500px) {
+
+    #compare-overflow {
+        height:auto;
+    }
+}
+
+
+
+
+
+/* ---------------  MEGAMENU ------------- */
+/* pushed menu to right*/
+#wpmegamenu-main {
+    float:right;
+}
+
+/*squeeze menu items*/
+.wpmegamenu > ul > li
+{
+    margin-right: 5px;
+}
+
+/* box containing megamenu titles*/
+.root-item {
+    width:70px;
+}
+
+/* packing titles of megamenu */
+.packedwords .root-item .title {
+    white-space: pre-wrap;
+    line-height: 20px;
+    #max-width: 75px;
+    max-width:68px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+}
+
+/* grey, red items of megamenu*/
+.greyfont .root-item .title
+{
+    color: var(--sst-grey);
+}
+
+.redfont .root-item .title
+{
+    color:  var(--sst-red);
+}
+
+.bluefont .root-item .title, h1.bluefont
+{
+    color: var(--sst-blue);;
+}
+
+
+
+
+
+
+/* VIEW COMPLETE RANGE megamenu extra button*/
+.normalized .category-specialbutton {
+    position:absolute;
+    right:25px;
+    top:-12px;
+}
+
+.normalized .category-specialbutton a
+{
+    color: #ffffff!important;
+    background: #da3b44;
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    width:170px;
+    margin-top:20px;
+    border:1px solid #da3b44;
+}
+
+.normalized .category-specialbutton a:hover {
+    color:#da3b44!important;
+    background:#ffffff;
+    border:1px solid #da3b44;
+}
+
+/* sticky cart pushed to bottom*/
+#sticky-cart {
+    margin-top: 10px;
+}
+
+/* basket section in megamenu pushed to right and down center */
+#header_right.column {
+    float:right;
+    margin:10px 0 0 0;
+}
+
+
+/* ---------------------------- HOMEPAGE -------------------------- */
+
+/* isotope tabs product names */
+.item-details {
+    line-height: 20px;
+}
+
+.item-wrapper .item-details .item-name-container {
+    min-height: 20px;
+}
+
+.item-wrapper .item-details .item-name-container .item-name {
+    display:inline-block;
+    vertical-align: -10px;
+}
+
+
+
+
+
+
+
+
+/* bottom black stripe */
+.fblock {
+    max-width: 12%;
+    text-align: center;
+}
+
+.footerstripe {
+    max-height: 20px;
+}
+
+
+
+
+
+
+
+/* CHECK IF NEEDED */
+/* megamenu hide element on desk riser workfit-p */
+.wpmegamenu .submenu > li.vis-hidden {
+    visibility:hidden;
+}
+
+/* below logo looks better without that styling */
+#sticky-menu-wrapper, #sticky-menu, #sticky-logo {
+    #max-height: 60px;
+}
+
+/* below couldnt find on home/product/category pages*/
+#category-header {
+    max-height:100px;
+}
+
+#category-header .category-name {
+    padding:0px;
+}
+
+
+#headerstripe a{
+    font-size: 13px;
+    color: #7BBDBD;
+    margin-left: 35px;
+    letter-spacing: -0.9px;
+}
+
+#headerstripe a:hover {
+    font-weight: bold;
+}
+
+/* button compare with hint */
+.comparehint {
+    margin-right:5px;
+    display: inline;
+    font-size:12px;
+}
+
+
+/* price including tax displayed customization*/
+.price-ex{
+    display: block;
+    font-size: 25px;
+}
+
+.price-inc {
+    margin-top:-15px;
+    font-size: 15px;
+}
+
+.ex-vat {
+    display:inline;
+    font-size: 18px;
+}
+
+.inc-vat {
+    display:inline;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* sub and sup custom */
+sub, sup {
+    font-size: 70%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.3em;
+}
+
+sub {
+    bottom: -0.3em;
+}
+
+
+
+/* LATEST PRODUCT PAGE BLUE FONTS AND LINKS */
+
+.sst_blue {
+    color: #0092bc;
+}
+
+.sst_blue a {
+    color: #0092bc;
+    text-decoration: underline;
+}
+
+h3.categoryh1, h1.categoryh1 {
+    font-weight:bold;
+    font-size:20px;
+}

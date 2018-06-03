@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "cronjobs"
+AuthUserFile "/home/gbs2/.htpasswds/public_html/pdf_data/cron/passwd"
+require valid-user

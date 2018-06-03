@@ -1,0 +1,756 @@
+/* ------------------------------------------------------------- */
+/*  This css must be loaded after autumn.css and responsive.css
+/*  because it will override some values from those files
+/* ------------------------------------------------------------- */
+
+/* ------------------------------------------------------------- */
+/*
+/*
+/*  WP Mobile Menu
+/*
+/*
+/* ------------------------------------------------------------- */
+
+/* ------------------------------------------------------------- */
+/*  Overlay
+/* ------------------------------------------------------------- */
+.wpmm-overlay {
+    display: none;
+    position: absolute;
+    z-index: 999997;
+    width: 100%;
+    /*height: 100%;*/
+    overflow: hidden;
+    background: transparent;
+}
+
+.wpmm-open .wpmm-overlay {
+    display: block;
+}
+
+/* ------------------------------------------------------------- */
+/*  Page Container
+/* ------------------------------------------------------------- */
+/* General */
+.wpmm-page {
+    overflow: hidden;
+}
+
+.wpmm-open .wpmm-page {
+    z-index: 1;
+}
+
+/* ------------------------------------------------------------- */
+/*  Content Container
+/* ------------------------------------------------------------- */
+.wpmm-content {
+    position: relative;
+    z-index: 2;
+}
+
+.wpmm-open .wpmm-content {
+    position: fixed;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.wpmm-open .wpmm-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* ------------------------------------------------------------- */
+/*  Menu Container
+/* ------------------------------------------------------------- */
+/* General */
+#wpmm-container {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -80%;
+    height: 100%;
+    width: 80%;
+    z-index: 999998;
+
+    -webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+#wpmm-container.wpmm-open {
+    -webkit-box-shadow: 0 0 13px 0 rgba(0,0,0,0.45);
+    -moz-box-shadow: 0 0 13px 0 rgba(0,0,0,0.45);
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.45);
+}
+
+.wpmm-open #wpmm-container {
+    -webkit-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+}
+
+/* ------------------------------------------------------------- */
+/*  Menu Tab Container
+/* ------------------------------------------------------------- */
+#wpmm-tabs {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+}
+
+/* ------------------------------------------------------------- */
+/*  Menu Tabs
+/* ------------------------------------------------------------- */
+.wpmm-tab {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    padding: 70px 20px 20px 20px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.wpmm-tab::-webkit-scrollbar {
+    display: none;
+}
+
+.wpmm-tab.wpmm-open {
+    display: block;
+}
+
+/* ------------------------------------------------------------- */
+/*  Navigation Bar
+/* ------------------------------------------------------------- */
+#wpmm-nav {
+    display: none;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    background: #da3b44;
+    color: #ffffff;
+    line-height: 40px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#wpmm-nav-buttons {
+    margin: 0 -1%;
+}
+
+.wpmm-nav-btn {
+    display: block;
+    float: left;
+    padding: 5px 0;
+    margin: 0 1%;
+    cursor: pointer;
+    text-align: center;
+    width: 31.333%;
+}
+
+/* ------------------------------------------------------------- */
+/*  Mobile Menu Responsive
+/* ------------------------------------------------------------- */
+
+/*---------------------------------------*/
+/* 960px <= width < 1023px
+/*---------------------------------------*/
+@media only screen and (max-width: 1023px)
+{
+    #wpmm-nav {
+        display: block;
+    }
+}
+
+/*---------------------------------------*/
+/* 768px <= width < 959px
+/*---------------------------------------*/
+@media only screen and (max-width: 959px)
+{
+    /*    #wrapper {
+             margin-top: 50px;
+        }*/
+}
+
+/*---------------------------------------*/
+/* 640px <= width < 767px
+/*---------------------------------------*/
+@media only screen and (max-width: 767px)
+{
+    #wpmm-container {
+        left: -100%;
+        width: 100%;
+    }
+}
+
+/*---------------------------------------*/
+/* 0px <= width < 419px
+/*---------------------------------------*/
+@media only screen and (max-width: 419px)
+{
+    .wpmm-tab {
+        padding: 70px 15px 15px 15px;
+    }
+
+}
+
+
+/* ------------------------------------------------------------- */
+/*
+/*  Mobile Menu Elements (Inserted elements)
+/*
+/*  Normally, these rules shouldn't be here but for the sake
+/*  of maintainability, I decided to put them here...
+/*
+/* ------------------------------------------------------------- */
+
+/* Navigation  */
+/* Cart */
+.wpmm-nav-btn.cart_info_inner {
+    display: inline;
+}
+
+.wpmm-nav-btn.cart_info_inner > .ajax_cart_total,
+.wpmm-nav-btn.cart_info_inner > .ajax_cart_product_txt,
+.wpmm-nav-btn.cart_info_inner > .ajax_cart_product_txt_s {
+    display: none!important;
+}
+
+.wpmm-nav-btn.cart_info_inner > .ajax_cart_quantity::before {
+    content: '(';
+}
+
+.wpmm-nav-btn.cart_info_inner > .ajax_cart_quantity::after {
+    content: ')';
+}
+
+/* Content */
+/* Language & Currency & Menu */
+#wpmm-container #language_selector {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#wpmm-container #language_selector .current_language {
+    border: 1px solid #d7dce2;
+}
+
+#wpmm-container #language_selector .languages_ul_hover {
+    position: relative;
+    padding: 3px;
+    margin: 3px 1px 0 1px;
+}
+
+#wpmm-container #language_selector .languages_ul li {
+    margin: 0 0 3px 0;
+}
+
+#wpmm-container #language_selector .languages_ul li:last-child {
+    margin: 0;
+}
+
+
+#wpmm-container #currency_selector {
+    display: inline-block;
+}
+
+#wpmm-container #currency_selector .current_currency {
+    border: 1px solid #d7dce2;
+    text-align: center;
+}
+
+#wpmm-container #currency_selector .currencies_ul_hover {
+    position: relative;
+    padding: 3px;
+    margin: 3px 1px 0 1px;
+}
+
+#wpmm-container #currency_selector .currencies_ul li {
+    margin: 0 0 3px 0;
+}
+
+#wpmm-container #currency_selector .currencies_ul li:last-child {
+    margin: 0;
+}
+
+/* Cart */
+#wpmm-container .cart_block {
+    display: block!important;
+    width: 100%;
+    min-width: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+}
+
+#wpmm-container .cart_block .cart_block_no_products {
+    padding: 20px 0!important;
+}
+
+#wpmm-container .cart_block .products {
+    background: none!important;
+}
+
+#wpmm-container .cart_block .products > .row {
+    padding: 15px 0!important;
+}
+
+#wpmm-container .cart_block .cart-images img {
+    padding: 3px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.095), 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.095), 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.095), 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+#wpmm-container .cart_block .cart-prices {
+    padding: 20px 0 0 0!important;
+}
+
+#wpmm-container .cart_block .cart-buttons {
+    padding: 15px 0!important;
+}
+
+#wpmm-container .cart_block .row-divider {
+    padding: 0!important;
+}
+
+/* My Account */
+/* Quick login form */
+#wpmm-container #quick_login {
+    text-align: center;
+}
+
+#wpmm-container #quick_login #login_form {
+    display: block;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+}
+
+#wpmm-container #quick_login #login_form fieldset {
+    width: 100%!important;
+    min-width: 0!important;
+    min-height: 0!important;
+    padding: 0;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#wpmm-container #quick_login h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    border: none;
+}
+
+#wpmm-container #quick_login #login_form input[type="text"],
+#wpmm-container #quick_login #login_form input[type="password"] {
+    width: 60%;
+}
+
+#wpmm-container #quick_login .quick_login_register {
+    border-top: 1px solid #d7dce2;
+    margin-top: 10px;
+    padding-top: 35px;
+}
+
+#wpmm-container #quick_login .quick_login_register h3{
+    border: none;
+}
+
+/* Logged in user info */
+#wpmm-container #mobile_header_user_info {
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #d7dce2;
+}
+
+#wpmm-container #mobile_header_user_info .username {
+    display: block;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+#wpmm-container #mobile_header_user_info .myaccount {
+    display: block;
+}
+
+#wpmm-container #mobile_header_user_info .myaccount.big {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+/* ------------------------------------------------------------- */
+/*  Mobile Menu Elements Responsive
+/* ------------------------------------------------------------- */
+
+/*---------------------------------------*/
+/* 420px <= width < 480px
+/*---------------------------------------*/
+@media only screen and (max-width: 479px)
+{
+    /* Quick login form */
+    #wpmm-container #quick_login #login_form input[type="text"],
+    #wpmm-container #quick_login #login_form input[type="password"] {
+        width: 80%;
+    }
+
+    #wpmm-container #quick_login .quick_login_register h3{
+        display: block;
+        padding: 0 0 20px 0;
+    }
+}
+
+/*---------------------------------------*/
+/* 0px <= width < 420px
+/*---------------------------------------*/
+@media only screen and (max-width: 419px)
+{
+
+}
+
+/*----------------------------------------------------------*/
+/*
+/*
+/* WP Image Zoom
+/*
+/*
+/*----------------------------------------------------------*/
+#wpzoom-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#wpzoom-container.wpzoom-enabled {
+    cursor: none;
+}
+
+#wpzoom-zoomed {
+    position: absolute;
+    display: none;
+    max-width: none;
+    z-index: 10;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#wpzoom-lens {
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    z-index: 12;
+    border: 2px solid #ffffff;
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.55), 0 0 0 1px rgba(0,0,0,0.55);
+    -moz-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.55), 0 0 0 1px rgba(0,0,0,0.55);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.55), 0 0 0 1px rgba(0,0,0,0.55);
+}
+
+#wpzoom-overlay {
+    position: absolute;
+    display: none;
+    z-index: 14;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+
+
+/*----------------------------------------------------------*/
+/*
+/*
+/* Owl Carousel
+/*
+/*
+/*----------------------------------------------------------*/
+
+/*
+ * 	Core Owl Carousel CSS File
+ *	v1.3.2
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* display none until init */
+.owl-carousel{
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper{
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+
+
+
+/* here on category page we change z-index:0 from z-index:1*/
+.owl-carousel .owl-wrapper-outer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    zoom: 1;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight{
+    -webkit-transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item{
+    float: left;
+}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+    cursor: pointer;
+}
+
+.owl-controls {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+    cursor:url('../../img/autumn/jquery_plugins/grabbing.png') 8 8, move;
+}
+
+/* fix */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+
+
+/*
+* 	Owl Carousel Owl Demo Theme
+*	v1.3.2
+*/
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+    display: inline-block;
+    zoom: 1;
+}
+.owl-theme .owl-controls .owl-page span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #da3b44;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+    height: auto;
+    width: auto;
+    color: #FFF;
+    padding: 2px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+    background: url('../../img/autumn/jquery_plugins/AjaxLoader.gif') no-repeat center center;
+    min-height: 32px;
+}
+
+/* Autumn - Owl Carousel Style Overrides */
+.owl-item img {
+    width: 100%;
+}
+
+.owl-controls {
+    width: 100%;
+}
+
+/* Owl navigation buttons in carousels */
+#wpmanufacturercarousel .owl-buttons,
+.wpproductcarousel .owl-buttons,
+#productscategory .owl-buttons,
+#crossselling .owl-buttons,
+#blockcart-crossselling .owl-buttons {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 30px;
+    top: -58px;
+    right: 0;
+}
+
+.owl-buttons .carousel-previous {
+    float: left;
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.owl-buttons .carousel-next {
+    float: right;
+    cursor: pointer;
+}
+
+
+/* Quick Image Viewer Buttons - product-list.tpl */
+.no-touch .product-list-grid .owl-buttons {
+    display: none;
+}
+
+.no-touch .product-list-grid .item:hover .owl-buttons {
+    display: block;
+}
+
+.touch .product-list-grid .owl-buttons {
+    display: block;
+}
+
+.product-list-grid .owl-controls {
+    position: absolute;
+    bottom: 0;
+    z-index: 1001;
+    margin: 0 0 0 -3px;
+}
+
+.product-list-grid .owl-controls .owl-buttons {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -33px;
+    padding: 5px;
+}
+
+.product-list-grid .owl-controls .owl-buttons div {
+    display: block;
+    float: left;
+    background: #ffffff;
+    padding: 5px 8px 4px 8px;
+    margin: 0 2px;
+    zoom: 1;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.095), 0 1.5px 1.5px 0 rgba(0, 0, 0, 0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.095), 0 1.5px 1.5px 0 rgba(0, 0, 0, 0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.095), 0 1.5px 1.5px 0 rgba(0, 0, 0, 0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product-list-grid .owl-controls .owl-buttons div > .wpicon {
+    float: left;
+}
+
+/* ------------------------------------------------------------- */
+/*  Owl Carousel Responsive
+/* ------------------------------------------------------------- */
+
+/*---------------------------------------*/
+/* 640px <= width < 768px
+/*---------------------------------------*/
+@media only screen and (max-width: 767px)
+{
+    #wpmanufacturercarousel .owl-buttons,
+    .wpproductcarousel .owl-buttons,
+    #productscategory .owl-buttons,
+    #crossselling .owl-buttons,
+    #blockcart-crossselling .owl-buttons {
+        display: none;
+    }
+}
+
+
+
+/*----------------------------------------------------------*/
+/*
+/*
+/*  Responsive Tables
+/*
+/*
+/*----------------------------------------------------------*/
+.wpresponsivetable-wrapper {
+    padding: 3px;
+    overflow-x: scroll;
+    border: 1px solid #d7dce2;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom:20px;
+}
+
+.wpresponsivetable-wrapper table.wpresponsive {
+    margin: 0!important;
+}
+
+.wpresponsivetable-wrapper table.wpresponsive td {
+    min-width: 150px;
+}

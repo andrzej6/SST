@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>barclaycardcw_mastercard</name>
+	<displayName><![CDATA[Barclaycard: MasterCard]]></displayName>
+	<version><![CDATA[2.1.236]]></version>
+	<description><![CDATA[This module allows your customers to pay with MasterCard via Barclaycard.]]></description>
+	<author><![CDATA[customweb ltd]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you wish to uninstall the module and delete all settings?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

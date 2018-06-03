@@ -1,0 +1,99 @@
+/********************************************************** FREETRIAL/SPECIAL OFFER PAGE*/
+
+/* top picture*/
+#special-freetrial {
+    position:absolute;
+    right:0;
+}
+
+/********************************* freetrial column */
+.freetrial-col {
+    width:180px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.freetrial-col .button-1.fill:hover{
+    background-color:white;
+}
+
+/* top line text*/
+.freetrial-product {
+    font-weight:bold;
+    width:180px;
+    text-align:center;
+}
+
+/* icon + text container*/
+.freetrial-batch {
+    width:180px;
+    margin-bottom:10px;
+}
+
+
+.batch-pic {
+    width:50%;
+    float:left;
+}
+
+.batch-pic img {
+    float:right;
+    margin-right:10px;
+}
+
+.batch-text {
+    width:50%;
+    float:right;
+    margin-top:2px;
+}
+
+.clear {
+    clear:both;
+}
+
+/* main picture in the block */
+.freetrial-pic {
+    margin-bottom:20px;
+}
+
+/* main button */
+.contact-us-additional1 {
+    width:180px;
+    text-align:center;
+}
+
+/* main button custom*/
+.button-1.fill a{
+    color:white;
+}
+
+.button-1.fill:hover a{
+    color:var(--sst-red);
+}
+
+/*********************** terms and conditions list */
+ol.ol-freetrial {
+    list-style-type:decimal;
+    margin-left:20px;
+    text-align:justify;
+}
+
+/********************************** SPECIAL OFFER PAGE ***/
+.freetrial-product a:hover {
+    text-decoration:underline;
+}
+
+.freetrial-description {
+    text-align:center;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.button-1.fill.blue {
+    background-color:var(--sst-blue);
+}
+
+.button-1.fill.blue:hover a{
+    color:var(--sst-blue);
+}

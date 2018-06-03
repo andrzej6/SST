@@ -1,0 +1,1 @@
+<div class="barclaycardcw-widget">{$widget}</div>

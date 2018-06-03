@@ -1,0 +1,28 @@
+
+table, td, th
+{
+border:1px solid red;
+border-collapse:collapse;
+}
+th
+{
+background-color:red;
+color:white;
+}
+td {
+    font-size:80%;
+}
+
+div {
+    max-height:100px;
+}
+
+.question {
+    min-width:200px;
+    overflow-y:auto;
+    min-height:100px;
+}
+
+.email {
+    overflow-x:auto;
+}

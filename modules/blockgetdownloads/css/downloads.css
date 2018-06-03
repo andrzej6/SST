@@ -1,0 +1,603 @@
+#pdfs-hidden {
+display:none;	
+}
+
+
+
+
+#send_us_form .text label {
+
+
+   display: inline-block;
+
+
+   padding: 6px 5px;
+
+
+   font-size: 12px;
+
+
+   text-align: right;
+
+
+   width:40%;
+
+
+
+
+
+}
+
+
+
+
+
+#send_us_form .text input {
+
+
+   padding: 0 5px;
+
+
+   height: 22px;
+
+
+   border: 1px solid #ccc;
+
+
+   font-size: 12px;
+
+
+   width:55%;
+
+
+}
+
+
+
+
+
+#send_us_form .text {
+
+
+   padding-bottom: 5px
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#send_us_form .submit {
+
+
+	margin:0 20px 0 0;
+
+
+	padding:5px 0;
+
+
+	text-align:right
+
+
+}
+
+
+
+
+
+
+
+
+#send_us_form .text input[type="checkbox"]{
+
+
+	width:5%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+input.button {
+
+
+	background-color:#da3b44;
+
+
+	color:white;
+
+
+	padding:10px;
+
+
+}
+
+
+
+
+
+input.button:hover {
+
+
+	background-color:#666666;
+
+
+	cursor:pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#send_friend_form_error {
+
+
+	color: #da3b44;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.image-part, .form-part {
+
+
+	float:left;
+
+
+}
+
+
+
+
+
+.form-part {
+
+
+	width:68%;
+
+
+}
+
+
+
+
+
+
+
+
+.image-part {
+
+
+	width:30%;
+
+
+    height: 200px;
+
+
+    text-align: center;  /* align the inline(-block) elements horizontally */
+
+
+    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+
+
+}
+
+
+
+
+
+.image-part:before {    /* create a full-height inline block pseudo=element */
+
+
+    content: ' ';
+
+
+    display: inline-block;
+
+
+    vertical-align: middle;  /* vertical alignment of the inline element */
+
+
+    height: 100%;
+
+
+}
+
+
+
+
+
+.image-part img {
+
+
+    display: inline-block;
+
+
+    vertical-align: middle;  /* vertical alignment of the inline element */
+
+
+    font: 16px/1 Arial sans-serif;        /* <-- reset the font property */
+
+
+}
+
+
+
+
+
+
+
+
+h2.title {
+
+
+	font-weight:bold;
+
+
+	font-size: 14px;
+
+
+	text-align:center;
+
+
+}
+
+
+
+
+
+
+
+
+.container-part {
+
+
+	margin-top:10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#send_friend_form_error {
+
+
+	margin-left:40%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.simple-message {
+
+
+	text-align:center;
+
+
+	margin-top:10px;
+
+
+	font-weight:bold;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+h2.popup-title {
+
+
+	text-align:center;
+
+
+	font-weight:bold;
+
+
+}
+
+
+
+
+
+
+
+.specials-row {
+	display: table; 
+	height: 200px; 
+	margin-bottom:10px;
+}
+
+
+
+
+
+.specials-center {
+	display: table-cell; 
+	vertical-align: middle;
+	width:150px;
+	text-align:center;
+}
+
+
+.specials-right
+{
+
+display: table-cell; 
+	vertical-align: middle;
+	width:280px;
+	text-align:center;
+	
+}
+
+
+.specials-center {
+	font-weight:bold;
+
+}
+
+.specials-right, .specials-title {
+	color:#da3b44;
+}
+
+.specials-title {
+	text-decoration:underline;
+}
+
+
+
+
+
+#insert_pass .submit {
+	text-align:center;
+	margin-top:15px;
+}
+
+
+#insert_pass_form_error
+{
+	color:#da3b44;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  downloads page */
+.oyf-downloads-pic, .oyf-downloads-descrip 
+{
+  float:left;
+  
+}
+
+
+.oyf-downloads-row {
+  width:100%;
+}
+
+
+
+.oyf-column1 {
+	float:left;
+	width:62%;
+}
+
+.oyf-column2 {
+	float:right;
+	width:35%;
+	margin-top:-70px;
+}
+
+
+
+.oyf-downloads-pic 
+{
+ width:12%;
+ #border:1px solid black;
+}
+
+
+
+
+
+.oyf-downloads-tabbed {
+  min-width: 110px;
+  display:inline-block;
+}
+
+
+
+
+.firstline .oyf-downloads-descrip{
+  width:85%;
+  padding:0px 0 0 5px;
+}
+
+
+
+
+
+
+
+#oyf-downloads-reglink {
+  color:#a21616;
+  font-weight:bold;
+  margin-top:-10px;
+  margin-bottom:15px;
+}
+
+#oyf-downloads-reglink a {
+  font-weight:bold;
+  color:#a21616;
+}
+
+
+
+.oyf-downloads-helper {
+  float:left;
+  width:200px;
+  text-align:right;
+}
+
+
+.oyf-downloads-helper.red
+{
+  color:red;
+  width:;
+}
+
+
+.oyf-downloads-desc1 {
+  text-align:left;
+}
+
+.oyf-downloads-desc1 a {
+	font-weight:bold;
+}
+
+
+
+.aw-partnersleft hr {
+  margin-left:-10px;
+  height:5px;
+}
+
+
+
+
+
+
+.aw-bluetext-big { 
+
+  color:#336699;
+
+  font-weight:bold;
+
+  font-size:18px; 
+
+}
+
+.clear  {
+clear:both;
+}
+
+
+
+.aw-redtext {
+	color:#da3b44;
+}
+
+.aw-redtext-big {
+	  font-weight:bold;
+
+  font-size:18px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 761px) and (max-width: 1189px) {
+
+.oyf-downloads-tabbed.nosmall {
+  display:none;
+}
+
+
+.oyf-downloads-desc1 a {
+  font-weight:bold;
+}
+
+}
+
+
+
+@media only screen and (max-width: 759px) {
+
+
+.oyf-downloads-tabbed.nosmall {
+  display:none;
+}
+
+
+}

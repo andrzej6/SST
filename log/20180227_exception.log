@@ -1,0 +1,7 @@
+*ERROR* 	2018/02/27 - 20:07:08: Template '/home/gbs2/public_html/modules/' not found at line 60 in file classes/controller/ModuleFrontController.php
+*ERROR* 	2018/02/27 - 20:07:13: Template '/home/gbs2/public_html/modules/' not found at line 60 in file classes/controller/ModuleFrontController.php
+*ERROR* 	2018/02/27 - 20:07:14: Template '/home/gbs2/public_html/modules/' not found at line 60 in file classes/controller/ModuleFrontController.php
+*ERROR* 	2018/02/27 - 20:08:21: Template '/home/gbs2/public_html/modules//adfretrial/freetrial.tpl' not found at line 60 in file classes/controller/ModuleFrontController.php
+*ERROR* 	2018/02/27 - 20:08:23: Template '/home/gbs2/public_html/modules//adfretrial/freetrial.tpl' not found at line 60 in file classes/controller/ModuleFrontController.php
+*ERROR* 	2018/02/27 - 20:11:59: Template 'freetrial.tpl' not found at line 60 in file classes/controller/ModuleFrontController.php
+*ERROR* 	2018/02/27 - 20:12:01: Template 'freetrial.tpl' not found at line 60 in file classes/controller/ModuleFrontController.php

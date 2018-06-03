@@ -1,0 +1,8 @@
+/********************************************************
+			One-Page Checkout Styles
+********************************************************/
+#new_account_form .id_state,
+#new_account_form .dni,
+#new_account_form .postcode {
+    display: none;
+}

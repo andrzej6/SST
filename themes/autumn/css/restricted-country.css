@@ -1,0 +1,12 @@
+#restricted-country {
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#restricted-country #message{
+    font-family: Arial, sans;
+    font-size: 21px;
+    color: #565b64;
+}

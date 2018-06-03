@@ -1,0 +1,41 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat .content_scene_cat_bg {
+    padding: 18px 10px 10px 42px;
+    background-color: #464646 !important;
+}
+
+.content_scene_cat span.category-name {
+    font: 600 42px/51px "Open Sans", sans-serif;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.content_scene_cat p {
+    margin-bottom: 0;
+}
+
+.content_scene_cat a {
+    color: white;
+}
+
+.content_scene_cat a:hover {
+    text-decoration: underline;
+}
+
+.content_scene_cat .content_scene {
+    color: #777777;
+}
+
+.content_scene_cat .content_scene .cat_desc {
+    padding-top: 20px;
+}
+
+.content_scene_cat .content_scene .cat_desc a {
+    color: #777777;
+}
+
+.content_scene_cat .content_scene .cat_desc a:hover {
+    color: #515151;
+}

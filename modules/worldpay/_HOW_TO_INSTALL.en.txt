@@ -1,0 +1,6 @@
+Installation
+
+To install WorldPay module unzip worldpay.zip and place folder woldpay into your Prestashop modules directory or use "Add a new module" button on the "Modules" tab.
+For the installation guide please check the module configuration page.
+
+If you have any problems with installation or have any questions please contact module support@modulesmarket.com

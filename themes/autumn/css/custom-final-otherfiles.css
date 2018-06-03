@@ -1,0 +1,106 @@
+/* OUR CUSTOMERS PAGE */
+.clients-block .client-one { width:168px; height:108px; float:left; margin:0 10px 10px 0px;  }
+.clients-block .client-one a { width:168px; height:108px; display:block;border:1px solid #cdcdcd;  }
+
+
+
+/**************************************** BLOG PAGES  */
+#content {
+    margin-bottom:20px;
+}
+
+.breadcrumb.bread-blog {
+    max-width:100%;
+}
+
+a.blog-redlink {
+    color:var(--sst-red);
+}
+
+a.blog-redlink:hover {
+    color:var(--sst-blue);
+}
+
+
+/***************************************** CONTACT FORM */
+/* CONTACT FORM */
+
+/* contact-us customer service pages */
+.contact-us-additional {
+    margin-bottom:10px;
+    font-size:15px;
+    line-height:35px;
+}
+
+#email_hidden1, .contact-phone {
+    display:inline-block;
+}
+
+#email_hidden1 {
+    width:300px;
+    text-decoration:underline;
+}
+
+#email_hidden1 a {
+    color:var(--sst-red)!important;
+    text-decoration:none;
+}
+
+
+#email_hidden1 a:hover {
+    text-decoration:underline;
+}
+
+.contact-phone {
+    color:var(--sst-blue);
+    font-weight:bold;
+}
+
+.contact-left {
+    float:left;
+}
+
+.contact-right {
+    float:right;
+}
+
+/* icons on contact us page */
+.ic-red {
+    color:var(--sst-red);
+}
+
+.ic-blue {
+    color:var(--sst-blue);
+}
+
+
+
+/**************************************** CATEGORY PAGE*/
+
+/* only for category pages - breadcrumbs */
+.breadcrumb  a {
+    color:var(--sst-red);
+}
+
+/* button compare with hint */
+.comparehint {
+    margin-right:5px;
+    display: inline;
+    font-size:12px;
+}
+
+/*   category page reduce empty space above products list and adjacent left   */
+.sortPagiBar {
+    margin: 0 0 5px 0!important ;
+}
+
+/* browse categories title reduce empty spaces*/
+#categories_block_left .title_block {
+    padding: 0 0 15px 0px;
+}
+
+
+
+/**************************** OUR CUSTOMERS PAGE*/
+.clients-block .client-one { width:168px; height:108px; float:left; margin:0 10px 10px 0px;  }
+.clients-block .client-one a { width:168px; height:108px; display:block;border:1px solid #cdcdcd;  }

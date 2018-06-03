@@ -1,0 +1,1 @@
+Please install module via FTP Upload or via common Prestashop Backend Installation Routine

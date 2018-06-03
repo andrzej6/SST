@@ -1,0 +1,157 @@
+#wpfrontpageblocks{
+    margin-bottom: 20px;
+}
+
+.wpfrontpageblock .hover-container{
+    display: block;
+    position: relative;
+}
+
+.wpfrontpageblock .hover{
+    display: none;
+    position: absolute;
+    background: rgba(24,15,31,0.7);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 25px 20px;
+    color: #ffffff!important;
+}
+
+.no-touch .wpfrontpageblock:hover .hover{
+    display: block;
+}
+
+.wpfrontpageblock .title{
+    padding: 15px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.wpfrontpageblock .description {
+    padding: 30px 0 0 0;
+    font-size: 16px;
+}
+
+.wpfrontpageblock img {
+    width: 100%;
+}
+
+.wpfrontpageblock .noimage {
+    text-align: center;
+    overflow: hidden;
+}
+
+.wpfrontpageblock .noimage .title{
+    border: none;
+}
+
+.wpfrontpageblock .noimage .description{
+    padding: 10px 5px 20px 5px;
+}
+
+/*----------------------------------------------------------*/
+/*
+/* Media Queries
+/*
+/*----------------------------------------------------------*/
+
+/*---------------------------------------*/
+/* width >= 1680px
+/*---------------------------------------*/
+@media only screen and (min-width: 1680px)
+{
+
+}
+
+/*---------------------------------------*/
+/*  1280px <= width < 1680px
+/*---------------------------------------*/
+@media only screen and (max-width: 1679px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 1136px <= width < 1280px
+/*---------------------------------------*/
+@media only screen and (max-width: 1279px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 1024px <= width < 1136px
+/*---------------------------------------*/
+@media only screen and (max-width: 1135px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 960px <= width < 1024px
+/*---------------------------------------*/
+@media only screen and (max-width: 1023px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 768px <= width < 960px
+/*---------------------------------------*/
+@media only screen and (max-width: 959px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 640px <= width < 768px
+/*---------------------------------------*/
+@media only screen and (max-width: 767px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 480px <= width < 640px
+/*---------------------------------------*/
+@media only screen and (max-width: 639px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 420px <= width < 480px
+/*---------------------------------------*/
+@media only screen and (max-width: 479px)
+{
+    .wpfrontpageblock .hover {
+        padding: 15px 10px;
+    }
+
+    .wpfrontpageblock .title {
+        padding: 10px 0;
+    }
+
+    .wpfrontpageblock .description {
+        padding: 15px 5px 0 5px;
+    }
+}
+
+/*---------------------------------------*/
+/* 320px <= width < 420px
+/*---------------------------------------*/
+@media only screen and (max-width: 419px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 0px <= width < 320px
+/*---------------------------------------*/
+@media only screen and (max-width: 319px)
+{
+
+}

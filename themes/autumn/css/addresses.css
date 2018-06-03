@@ -1,0 +1,5 @@
+/*******************************************************
+				Addresses Styles
+********************************************************/
+.address {
+}.ordernote {	font-size: 16px;    color: #da3b44;    text-align: center;    margin-bottom: 20px;    padding: 10px 0 20px 0;    border-bottom: 1px solid #d7dce2;}#order .address .address_update {	display:none;}.list-icon-arrow li:last-child:before {    content: "";}h3.vouchers-red {	color:#da3b44;}.vouchers-red a {	color:#da3b44!important;}

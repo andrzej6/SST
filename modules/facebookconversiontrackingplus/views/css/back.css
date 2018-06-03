@@ -1,0 +1,52 @@
+/**
+ * Facebook Conversion Pixel Tracking Plus
+ *
+ * NOTICE OF LICENSE
+ *
+ * @category marketing
+ * @author    Pol Rué
+ * @copyright Smart Modules 2014
+ * @version 1.6.3
+ * @license   One time License
+ * Registered Trademark & Property of Smart-Modules.pro
+ *
+ * **************************************************
+ * *     Facebook Conversion Trackcing Pixel Plus    *
+ * *          http://www.smart-modules.pro           *
+ * *                     V 1.6.3                     *
+ * **************************************************
+ *
+ * Versions:
+ * 1.0 First release. After the succes of his younger Brother the Facebook Conversion Pixel we have released the Facebook Conversion Trackcing Pixel Plus, the ultimate conversion tracking module for Facebook Ads
+ * 1.0.1 Added some modifications
+ * 1.1.0 Bug fixed and better code
+ * 1.1.1 Improved add to cart code
+ * 1.2.0 Added support for Custom Audiences
+ * 1.3.0 Works with new Facebook's Pixel Code
+ * 1.3.1 Added new functionalities (track addToWishlist, StartCheckout, Start Payment)
+ * 1.3.2 Better global searches tracking
+ * 1.4.0 Added Single Product Tracking
+ * 1.5.0 Added Dynamic Product Ads Code
+ * 1.5.1 Better Compatibility for Dynamic Products for PrestaShop 1.5.X versions
+ * 1.5.2 Small bugs fixed better value detection for dynamic products
+ * 1.5.3 Added Product Catalogue ID for better compatibility with multlang feeds
+ * 1.5.4 Bugs fixed
+ * 1.5.5 Added Conversion Tests
+ * 1.5.6 Added Prefix for IDs in catalogue
+ * 1.5.7 Fixed keypage bugs on 1.5.X versions
+ * 1.5.8 Added support for onepagecheckout module
+ * 1.5.9 Bug fixed with prefix 
+ * 1.6.0 Added more options for customization
+ * 1.6.0 Added prefix for combinations
+ * 1.6.0 Added combination detect on default scheme using themes. Some themes may need customizations
+ * 1.6.1 Better themes support for addToCart event
+ * 1.6.2 Bug fixing, imrpoved combinatios
+ * 1.6.3 Better Product detection, bugs fixed
+*/
+
+#module_form label {
+    float:none;
+}
+input[type=submit] {
+    padding:10px 15px;
+}

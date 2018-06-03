@@ -1,0 +1,61 @@
+/* wishlist block */
+#wishlist_block #wishlist_block_list {
+    margin: 0 0 20px 0;
+}
+
+#wishlist_block .lnk .form-group {
+    margin: 0 0 20px 0;
+}
+
+#wishlist_block .ajax_cart_block_remove_link {
+    float: right;
+}
+
+#wishlist_block .cart_block_product_name {
+    width: 85%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#wishlist_block .quantity-formated {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 15px;
+}
+
+#wishlist_block_list .price {
+    float: right;
+}
+
+/* page in my account ************************************************************************* */
+/* wishlistLinkTop */
+#module-blockwishlist-mywishlist #block-order-detail #hideSendWishlist {
+    display: inline-block;
+}
+
+#module-blockwishlist-mywishlist .wishlistLinkTop #showBoughtProducts,
+#module-blockwishlist-mywishlist .wishlistLinkTop #hideBoughtProductsInfos {
+    display: none;
+}
+
+/* wlp_bought ****************************************** */
+/* wlp_bought_list */
+ul.wlp_bought_list li {
+    margin: 0 0 30px 0;
+}
+
+ul.wlp_bought_list li .product-name small {
+    display: block;
+    font-size: 11px;
+}
+
+ul.wlp_bought_list li .product-name small a {
+    font-size: 11px;
+}
+
+ul.wlp_bought_list li .lnkdel {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

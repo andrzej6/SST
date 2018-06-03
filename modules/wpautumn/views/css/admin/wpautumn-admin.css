@@ -1,0 +1,25 @@
+#fieldset_wpautumn-general,
+#fieldset_wpautumn-header,
+#fieldset_wpautumn-footer,
+#fieldset_wpautumn-categorypages,
+#fieldset_wpautumn-color,
+#fieldset_wpautumn-background {
+    margin-bottom: 20px;
+}
+
+.important-button {
+    font-weight: bold;
+    background: #fff;
+    padding: 5px 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.35);
+}
+
+.warning-text {
+    color: #da3b44;
+    font-size: 13px;
+}
+
+.success-text {
+    color: #2a803e;
+    font-size: 13px;
+}

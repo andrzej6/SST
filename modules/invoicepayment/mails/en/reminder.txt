@@ -1,0 +1,8 @@
+Hi, {firstname} {lastname}
+
+Thank you for your order on {shop_name}, however, it is still unpaid. Please review an invoice attached to this email.
+
+Order reference: {order_reference}
+Date: {order_date}
+
+{shop_url} powered by PrestaShop™

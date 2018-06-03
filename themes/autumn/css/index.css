@@ -1,0 +1,110 @@
+/* HOMEPAGE */
+
+/* homepage removing extra empty spaces
+ editorial block - block above isotope tabs */
+.freetrial1 {
+    cursor: pointer;
+}
+
+/* homepage top text */
+.homeblock-red {
+    font-size:20px;
+    color:var(--sst-red);
+    font-weight:bold;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.homeblock-center {
+    text-align:justify;
+}
+.homeblock-secondary {
+    margin-bottom:15px;
+}
+.normalized .homeblock-secondary a {
+    color:#565b64!important;
+}
+
+.normalized .homeblock-secondary a:hover {
+    color:var(--sst-red)!important;
+}
+
+#editorial_block_center {
+    margin-bottom: 0px;
+}
+
+#editorial_block_center.normalized p {
+    margin:10px 0px 15px 0px;
+}
+
+#wpisotopetabs .wpisotopetabs-filters {
+    margin-bottom:10px;
+    padding-bottom:0px;
+}
+
+#wpisotopetabs {
+    margin-bottom:0px;
+}
+
+#wpfrontpageblocks {
+    margin-bottom:0px;
+}
+
+#wpmanufacturercarousel {
+    margin-bottom:0px;
+}
+
+#wpmanufacturercarousel .title-1 {
+    margin-bottom:0px!important;
+    padding:0px;
+}
+
+#frontpage-slider {
+    margin-bottom:0px;
+}
+
+.wpisotopetabs-products .grid .item {
+    margin:0 0.9% 5px 0.9%;
+}
+
+.wpisotopetabs-products .grid .item-price {
+    margin:0;
+}
+
+.wpisotopetabs-products .grid .item-buttons > a {
+    margin:0 0 5px 0;
+}
+
+#wpmanufacturercarousel-manufacturers .owl-controls {
+    margin-top:-5px;
+}
+
+#wpmanufacturercarousel .owl-buttons {
+    top:-25px;
+}
+
+
+/* isotope tabs product names */
+.item-details {
+    line-height: 20px;
+}
+
+.item-wrapper .item-details .item-name-container {
+    min-height: 20px;
+}
+
+.item-wrapper .item-details .item-name-container .item-name {
+    display:inline-block;
+    vertical-align: -10px;
+}
+
+/* homepage isotope */
+.no-touch #wpisotopetabs .wpisotopetabs-filter a:hover {
+    color: #ffffff;
+    background: #ec6454;
+}
+
+#columns.onhome {
+    padding:0px;
+}
+
+

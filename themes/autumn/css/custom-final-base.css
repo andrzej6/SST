@@ -1,0 +1,842 @@
+/* from global.css*/
+.unvisible {
+    display: none;
+}
+
+/* BASE COLOURS */
+
+:root {
+    --sst-red: #da3b44;
+    --sst-blue: #0092bc;
+    --sst-grey: grey;
+    --sst-darkgrey: #565B64;
+    --sst-gbsblue: #1136d3;
+}
+
+
+/* --------------------------------------------------- FOR ALL PAGES ----------------------------  */
+
+/********************************* COMMON STYLES FOR LINKS AND TEXTS */
+a.yy-bold, .yy-bold {
+    font-weight: bold;
+}
+
+a.yy-uline, .yy-uline {
+    text-decoration:underline;
+}
+
+.yy-red, .yy-red a, a.yy-red {
+    color:var(--sst-red);
+}
+
+.yy-blue, .yy-blue a, a.yy-blue,
+.sst_blue, .sst_blue a
+{
+    color:var(--sst-blue);
+}
+
+.yy-grey, .yy-grey a, a.yy-grey {
+    color:var(--sst-grey);
+}
+
+.yy-darkgrey, .yy-darkgrey a, a.yy-darkgrey {
+    color:var(--sst-darkgrey);
+}
+
+.yy-gbsblue, .yy-gbsblue a, a.yy-gbsblue
+{
+    color:var(--sst-gbsblue);
+}
+
+
+/* HOVER ON LINKS - SAME AS ISOTOPE BUTTONS*/
+a.yy-blue:hover, .yy-blue a:hover {color: var(--sst-darkgrey)}
+a.yy-gbsblue:hover {color: var(--sst-darkgrey)}
+a.yy-red:hover {color: var(--sst-darkgrey)}
+a.yy-darkgrey:hover {color: var(--sst-red)}
+
+
+
+.sst_blue a {
+    text-decoration: underline;
+}
+
+/* special category custom with h1 tag - to reuse*/
+h3.categoryh1, h1.categoryh1 {
+    font-weight:bold;
+    font-size:20px;
+}
+
+
+/* sub and sup custom */
+sub, sup {
+    font-size: 70%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.3em;
+}
+
+sub {
+    bottom: -0.3em;
+}
+
+/* side containers default no display - changed for big screens */
+#outer_left, #outer_right {
+    display:none;
+}
+
+/* logo picture to have gap btw when hover on megamenu element */
+#logo  img {
+    margin-top: 5px;
+}
+
+
+/* ON TOP BLACK STRIPE */
+.phone-large
+{
+    font-size:1.3em;
+}
+
+
+/* ON TOP BLACK STRIPE */
+.h-leftcol {
+    float:left;
+}
+
+.h-centcol {
+    display:inline-block;
+}
+
+.h-rightcol {
+    float:right;
+}
+
+.h-leftcol .h-col, .h-centcol .h-col {
+    margin-right:25px;
+}
+
+.h-rightcol .h-col {
+    margin-left: 25px;
+}
+
+#email_hidden b {
+    display:none;
+}
+
+
+
+/* ELEMENTS NEXT TO MEGAMENU - Basket, Shopping Cart Display*/
+#header_right .onlybutton {
+    width: 90%;
+    margin-left: 10%;
+    line-height: 10px;
+}
+
+.col-for-basket {
+    width:10%;
+}
+
+.col-for-logo {
+    width: 20%;
+}
+
+#header_cart_block {
+    margin-left: -200px;
+}
+
+
+/*************************************************** MEGAMENU */
+
+/* pushed menu to right*/
+#wpmegamenu-main {
+    float:right;
+}
+
+/*squeeze menu items*/
+.wpmegamenu > ul > li
+{
+    margin-right: 5px;
+}
+
+/* box containing megamenu titles*/
+.root-item {
+    width:70px;
+}
+
+.root-item .title {
+    text-align:center;
+}
+
+/* megamenu customization */
+.root-10, .root-11 ,.root-13, .root-12, .root-14,
+.root-15, .root-17, .root-18 , .root-19 {
+    width:70px;
+}
+
+
+
+/* grey, red items of megamenu*/
+.greyfont .root-item .title
+{
+    color: var(--sst-grey);
+}
+
+.redfont .root-item .title
+{
+    color:  var(--sst-red);
+}
+
+.bluefont .root-item .title, h1.bluefont
+{
+    color: var(--sst-blue);
+}
+
+
+/* packing titles of megamenu */
+.packedwords .root-item .title {
+    white-space: pre-wrap;
+    line-height: 20px;
+    #max-width: 75px;
+    max-width:68px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+}
+
+/* Best selling products section */
+.csolutions:hover {
+    cursor: pointer;
+}
+
+/* VIEW COMPLETE RANGE megamenu extra button*/
+.normalized .category-specialbutton {
+    position:absolute;
+    right:25px;
+    top:-12px;
+}
+
+.normalized .category-specialbutton a
+{
+    color: #ffffff!important;
+    background: var(--sst-red);
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    width:170px;
+    margin-top:20px;
+    border:1px solid var(--sst-red);
+}
+
+.normalized .category-specialbutton a:hover {
+    color:var(--sst-red)!important;
+    background:#ffffff;
+    border:1px solid var(--sst-red);
+}
+
+/*  wpmegamenu customization  */
+.wpmegamenu .menu-item .depth-2.submenu-title-link .title {
+    margin-top: 5px;
+}
+
+.wpmegamenu .menu-item .depth-2.submenu-title-link .title a,
+.wpmegamenu .menu-item .depth-3.submenu-title-link .title a {
+    font-weight:bold;
+    color:var(--sst-red);
+}
+
+.wpmegamenu .menu-item .depth-2.submenu-title-link .title a:hover,
+.wpmegamenu .menu-item .depth-3.submenu-title-link .title a:hover {
+    text-decoration:underline;
+}
+
+.wpmegamenu li .menu-item .submenu-title-link:hover {
+    color:var(--sst-red);
+}
+
+.wpmegamenu ul.menu-items.active {
+    border-top:4px solid var(--sst-red);
+}
+
+.wpmegamenu .menu-item .depth-3.submenu-descrip .normalized p {
+    text-align: justify;
+    margin: 0px;
+}
+
+.wpmegamenu .menu-item .depth-2.megamenimage .normalized img,
+.wpmegamenu .menu-item .depth-2.megamenvideo .normalized iframe {
+    border: 2px solid var(--sst-red);
+}
+
+.wpmegamenu .menu-item .depth-2.hushdesc-logo p {
+    margin:-3px 0 0 -5px;
+}
+
+.wpmegamenu .menucol-1-3.depth-2 .title {
+    text-align:center;
+}
+
+
+
+.csolutions li.megamenimage {
+    margin-top:-30px;
+}
+
+.csolutions .submenu-descrip {
+    color: #666666;
+    font-weight:bold;
+}
+
+.wpmegamenu .product.withimage .title a {
+    color:var(--sst-blue);
+}
+
+.root-15 .submenu-title-link .title {
+    margin-left:0;
+}
+
+/* customization megamenu play video */
+.wpmegamenu .menu-item .depth-2.megamenvideo
+{
+    position:relative;
+    margin-top: 0px;
+}
+
+.wpmegamenu .menu-item .depth-2.megamenvideo  {
+    max-width: 150px;
+    max-height:113px;
+}
+
+.wpmegamenu .menu-item .depth-2.megamenvideo img {
+    border: 2px solid var(--sst-red);
+}
+
+.wpmegamenu .menu-item .depth-2.megamenvideo:hover .play {
+    opacity:1;
+    cursor:pointer;
+}
+
+.wpmegamenu .menu-item .depth-2.megamenvideo .play{
+    position : absolute;
+    top:40%;
+    width:40px;
+    margin:0 auto;
+    left:10px;
+    right:0px;
+    z-index:100;
+    opacity: 0.6;
+}
+
+/* megamenu video in sit-stand desks section */
+li.megam-prod-vid .normalized
+{
+    margin-top:-25px;
+}
+
+/* corrected visibility megamenu through image on product page */
+.pb-left-column #image-block .image-tags .discount {
+    z-index:1;
+    background: var(--sst-red);
+}
+
+
+
+/* sticky cart pushed to bottom*/
+#sticky-cart {
+    margin-top: 10px;
+}
+
+/* sticky logo not to go outside */
+#sticky-logo img {
+    margin-top: -5px;
+}
+
+/* basket section in megamenu pushed to right and down center */
+#header_right.column {
+    float:right;
+    margin:10px 0 0 0;
+}
+
+/* *************************************************HOMEPAGE*/
+
+/* homepage top text under image slider -fresh text on homepage */
+.homeblock-red {
+    font-size:20px;
+    color:var(--sst-red);
+    font-weight:bold;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.homeblock-center {
+    text-align:justify;
+}
+.homeblock-secondary {
+    margin-bottom:15px;
+}
+.normalized .homeblock-secondary a {
+    color:#565b64!important;
+}
+
+.normalized .homeblock-secondary a:hover {
+    color:var(--sst-red)!important;
+}
+
+
+/* editorial block below image slider - reducing empty lines */
+#editorial_block_center {
+    margin-bottom: 0px;
+}
+
+#editorial_block_center.normalized p {
+    margin:10px 0px 15px 0px;
+}
+
+/* further reduce empty spaces on homepage */
+#wpisotopetabs .wpisotopetabs-filters {
+    margin-bottom:10px;
+    padding-bottom:0px;
+}
+
+#wpisotopetabs {
+    margin-bottom:0px;
+}
+
+#wpfrontpageblocks {
+    margin-bottom:0px;
+}
+
+#wpmanufacturercarousel {
+    margin-bottom:0px;
+}
+
+#wpmanufacturercarousel .title-1 {
+    margin-bottom:0px!important;
+    padding:0px;
+}
+
+#frontpage-slider {
+    margin-bottom:0px;
+}
+
+
+/* further reducing empty spaces on homepage - maximized */
+.wpisotopetabs-products .grid .item {
+    margin:0 0.9% 5px 0.9%;
+}
+
+.wpisotopetabs-products .grid .item-price {
+    margin:0;
+}
+
+.wpisotopetabs-products .grid .item-buttons > a {
+    margin:0 0 5px 0;
+}
+
+#wpmanufacturercarousel-manufacturers .owl-controls {
+    margin-top:-5px;
+}
+
+#wpmanufacturercarousel .owl-buttons {
+    top:-25px;
+}
+
+#columns.onhome {
+    padding:0px;
+}
+
+
+
+/* isotope tabs */
+
+.no-touch #wpisotopetabs .wpisotopetabs-filter a {
+   border-radius:5px;
+}
+
+
+.no-touch #wpisotopetabs .wpisotopetabs-filter a:hover {
+    color: #ffffff;
+    #background: #ec6454;
+    background: #84888f;
+	transform: scale(0.97);
+}
+
+#wpisotopetabs .wpisotopetabs-products .containslink {
+    min-height: 20px;
+}
+
+#wpisotopetabs .wpisotopetabs-products .containslink .item-name-link {
+    display:inline-block;
+    /*vertical-align: -10px;*/
+}
+
+/* bestseller tag homepage */
+.grid .item-tag-bestseller {
+    display: block;
+    float: left;
+    clear: both;
+    margin: 0 0 3px 0;
+    padding: 0 5px;
+    background: var(--sst-blue);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+
+/*************************************************** SEVERAL PAGES */
+
+
+/* BROWSE CATEGORIES BLOCK - LEFT SIDE - FEW PAGES */
+.browsecatlist .list-icon-arrow li:before {
+    content: "";
+}
+
+.browsecatlist .list-icon-arrow li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#categories_block_left .browsecatlist .list-icon-arrow li ul {
+    margin: 0px 0 0 20px;
+}
+
+.browsecatlist a:hover {
+    color: var(--sst-red);
+}
+
+
+/*  VIEWED PRODUCT SECTION  */
+#viewed-products_block_left.viewed-blue-border img {
+    border: 1px solid #1464a0;
+    padding:1px;
+}
+
+/* product page, recently viewed */
+.block_content.products-block {
+    padding-top:10px;
+}
+
+
+/* item details in several pages squeeze them vertically - for example in category page */
+.item-details {
+    line-height: 20px;
+}
+
+.item-wrapper .item-details .item-name-container {
+    min-height: 20px;
+}
+
+/* further squeeze */
+.item-wrapper .item-details .item-name-container .item-name {
+    display:inline-block;
+    vertical-align: -10px;
+}
+
+/* product tag + reduced products customization   */
+.grid .item-tag-discount {
+    background: var(--sst-grey);
+}
+
+.grid .item-old-price , .old-price.product-price {
+    /* margin-left: 6px;*/
+    color: #666666;
+    text-decoration:none;
+    font-size: 11px;
+    margin-top: -5px;
+    line-height: 15px;
+    margin-left:0px;
+    font-weight: normal;
+}
+
+
+
+/* you save box when displaying a pack on product page */
+.yousave {
+    color: var(--sst-red);
+    padding: 3px;
+}
+
+
+
+/* bottom black stripe */
+.fblock {
+    max-width: 12%;
+    text-align: center;
+}
+
+.footerstripe {
+    max-height: 20px;
+}
+
+
+/* CHECKOUT CUSTOMIZATION */
+/* paypal button and invoice */
+.payment_module a {
+    color:white;
+    border:1px solid var(--sst-red);
+    padding:10px;
+    background-image: none !important;
+    background-color:var(--sst-red)!important;
+    display:inline-block;
+    min-width:270px;
+}
+
+#button_order_cart, .standard-checkout.button-1.fill{
+    background:var(--sst-blue);
+}
+
+.payment_module {
+    text-align:center;
+}
+
+.sit-stand-pb {
+    border: 1px solid var(--sst-grey);
+    padding:10px;
+    background-color:lightgrey;
+}
+
+button.sit-stand-pb {
+    background:var(--sst-blue);
+    color:white;
+    border:2px solid var(--sst-blue);
+}
+
+button.sit-stand-pb:hover {
+    cursor:pointer;
+    #transform: scale(1.05);
+}
+
+#amount_1 {
+    color:var(--sst-grey);
+}
+
+a.invoice-underl {
+    text-decoration:underline;
+}
+
+/* add to cart popup and other*/
+#button_order_cart, .standard-checkout.button-1.fill{
+    background:var(--sst-blue);
+}
+
+/* has to be here -only visible for bigger screens */
+.prod-manu-pic {
+    display:none;
+}
+
+/*custom pages freetrial, corporate*/
+.sorporate-pic {
+    display:block;
+    margin-left:80%;
+    float:right;
+    position:absolute;
+    margin-top:-30px;
+}
+.sorporate-pic, .specials-pic {
+    display:none;
+}
+
+/* ********************************************DIFFERENT SCREENS */
+@media only screen and (max-width: 500px) {
+
+    #compare-overflow {
+        height:auto;
+    }
+}
+
+
+@media only screen and (min-width: 760px) {
+
+    /* megamenu button for big screens */
+    .normalized .category-specialbutton {
+        display:inline;
+    }
+
+    .alert-success
+    {
+        width:80%;
+    }
+
+    /* special offer page and other similar - picture in heading */
+    .specials-pic {
+        display:block;
+        float:right;
+        margin-top:-40px;
+    }
+
+    .specials-pic1  {
+        display:block;
+        float:right;
+        margin-top:-40px;
+        margin-right:46px;
+    }
+
+
+    /*************************************************** CORPORATE SALES PAGE*/
+    .corporate-form-box label {
+        width: 40%;
+        display: inline-block;
+        float: left;
+    }
+
+    .corporate-form-box input[type="text"], .corporate-form-box input[type="email"], .corporate-form-box select {
+        width: 30%;
+        float: left;
+    }
+
+    .corporate-form-box textarea {
+        width: 70%;
+        float: left;
+    }
+
+    .corporate-form-box .form-group {
+        max-width: 100%;
+        margin: 0 auto 15px auto;
+    }
+
+    .corporate-form-box .form-group.submit {
+        width: 70%;
+        text-align: right;
+        margin: 0;
+        padding: 5px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1135px) {
+    /* PRODUCT PAGE - manufacturer image, breadcrumbs */
+    .prod-manu-pic {
+        display:block;
+        margin-top:-70px;
+    }
+
+    .breadcrumb {
+        max-width:425px;
+    }
+}
+
+/* smaller screen sitelock and verified logos */
+@media only screen and (max-width: 1300px) {
+
+    #visa_logo, #sitelock_shield_logo {
+        display:none;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+    /* cirle skins custom for big screens*/
+    #skin_wrapper {
+        margin:0 auto;
+        max-width:1500px;
+    }
+
+    #outer-wrapper {
+        float:left;
+    }
+
+    #outer_left, #outer_right {
+        display:block;
+        float:left;
+        width:150px;
+        #background-color:silver;
+    }
+
+    /* new skins - only for big screens */
+    #outer_right {
+        position: relative;
+    }
+
+    #skin-1 {
+        position: absolute;
+        top: 5px;
+        right: 70px;
+        background-position: 0 0px;
+    }
+
+    #skin-2 {
+        position: absolute;
+        top: 80px;
+        right: 70px;
+        background-position: 0 -71px;
+    }
+
+    #skin-3 {
+        position: absolute;
+        top: 155px;
+        right: 70px;
+        background-position: 0 -142px;
+    }
+
+    #skin-4 {
+        position: absolute;
+        top: 230px;
+        right: 70px;
+        background-position: 0 -215px;
+    }
+
+    #skin-5 {
+        position: absolute;
+        top: 305px;
+        right: 70px;
+        background-position: 0 -288px;
+    }
+
+    #skin-6 {
+        position: absolute;
+        top: 380px;
+        right: 70px;
+        background-position: 0 -360px;
+    }
+
+    #skin-7 {
+        position: absolute;
+        top: 455px;
+        right: 70px;
+        background-position: 0 -434px;
+    }
+	
+	#skin-8 {
+        position: absolute;
+        top: 525px;
+        right: 70px;
+        background-position: 0 -506px;
+    }
+	
+
+    /* for all circles skins */
+    .c-pointer {
+        cursor: pointer;
+    }
+
+    .c-pointer:hover {
+        transform: scale(1.1);
+    }
+
+
+    .skins {
+        background: url("https://sit-stand.com/img/skins/skins1.png") no-repeat;
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1500px) {
+
+    /* cirle skins custom for big screens*/
+    .boxed #outer-wrapper {
+        width:1200px;
+    }
+}
+
+

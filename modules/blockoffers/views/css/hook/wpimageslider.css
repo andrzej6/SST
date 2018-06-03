@@ -1,0 +1,160 @@
+#wpimageslider {
+    padding-bottom: 40px;
+    margin: 40px 0 0 0;
+}
+
+.fullwidth-row #wpimageslider {
+    margin: 0;
+}
+
+#wpimageslider ul.slides > li{
+    display: none;
+    position: relative;
+}
+
+#wpimageslider li img{
+    width: 100%;
+}
+
+#wpimageslider li .flex-caption {
+    position: absolute;
+    padding: 0 30px;
+    color: #ffffff;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.75);
+}
+
+/* Top Alignment */
+#wpimageslider li .flex-caption.topleft {
+    top: 25%;
+    left: 10%;
+}
+
+#wpimageslider li .flex-caption.topmiddle {
+    top: 25%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#wpimageslider li .flex-caption.topright {
+    top: 25%;
+    right: 10%;
+}
+
+/* Bottom Alignment */
+#wpimageslider li .flex-caption.bottomleft {
+    bottom: 25%;
+    left: 10%;
+}
+
+#wpimageslider li .flex-caption.bottommiddle {
+    bottom: 25%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#wpimageslider li .flex-caption.bottomright {
+    bottom: 25%;
+    right: 10%;
+}
+
+/*----------------------------------------------------------*/
+/*
+/* Media Queries
+/*
+/*----------------------------------------------------------*/
+
+/*---------------------------------------*/
+/* width >= 1680px
+/*---------------------------------------*/
+@media only screen and (min-width: 1680px)
+{
+
+}
+
+/*---------------------------------------*/
+/*  1280px <= width < 1680px
+/*---------------------------------------*/
+@media only screen and (max-width: 1679px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 1136px <= width < 1280px
+/*---------------------------------------*/
+@media only screen and (max-width: 1279px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 1024px <= width < 1136px
+/*---------------------------------------*/
+@media only screen and (max-width: 1135px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 960px <= width < 1024px
+/*---------------------------------------*/
+@media only screen and (max-width: 1023px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 768px <= width < 960px
+/*---------------------------------------*/
+@media only screen and (max-width: 959px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 640px <= width < 768px
+/*---------------------------------------*/
+@media only screen and (max-width: 767px)
+{
+    #wpimageslider .flex-direction-nav {
+        display: none;
+    }
+
+    #wpimageslider li .flex-caption {
+        display: none;
+    }
+}
+
+/*---------------------------------------*/
+/* 480px <= width < 640px
+/*---------------------------------------*/
+@media only screen and (max-width: 639px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 420px <= width < 480px
+/*---------------------------------------*/
+@media only screen and (max-width: 479px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 320px <= width < 420px
+/*---------------------------------------*/
+@media only screen and (max-width: 419px)
+{
+
+}
+
+/*---------------------------------------*/
+/* 0px <= width < 320px
+/*---------------------------------------*/
+@media only screen and (max-width: 319px)
+{
+
+}
