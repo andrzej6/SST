@@ -33,6 +33,9 @@
 
                         {elseif ($post.meta_title=='How to Stay Young? BBC TV features Yo-Yo Desk®')}
                             <img itemprop="image" alt="{$post.meta_title}" src="/img/blog/bbc3.jpg" class="imageFeatured">
+							
+						{elseif ($post.meta_title=='Workplace is key to reducing sedentary behaviour: The World Health Organization')}
+                            <img itemprop="image" alt="{$post.meta_title}" src="/img/blog/who.jpg" class="imageFeatured">
 
 
 
