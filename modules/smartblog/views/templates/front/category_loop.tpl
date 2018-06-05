@@ -36,6 +36,9 @@
 							
 						{elseif ($post.meta_title=='Workplace is key to reducing sedentary behaviour: The World Health Organization')}
                             <img itemprop="image" alt="{$post.meta_title}" src="/img/blog/who.jpg" class="imageFeatured">
+							
+							{elseif ($post.meta_title=='Bloggers LOVE our Yo-Yo Desk®!')}
+                            <img itemprop="image" alt="{$post.meta_title}" src="/img/blog/bloggers.jpg" class="imageFeatured">
 
 
 
