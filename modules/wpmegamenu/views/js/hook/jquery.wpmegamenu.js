@@ -223,7 +223,7 @@ function hideMegamenuMenu(el){
     
     
     
-    $(el).closest('.root').children('.root-item ').children('a').children('.title').css({'font-weight':'normal','border':'0'});
+   // $(el).closest('.root').children('.root-item ').children('a').children('.title').css({'font-weight':'normal','border':'0'});
 }
 
 

@@ -13,12 +13,14 @@
 
 
 <div class="contact-us-additional">
-    Our <strong>Special Offers</strong> are subject to product availability and conditions may apply.<br/>
-    It is only possible to use ONE voucher code with EACH purchase.<br/>
-    It is our responsibility to make sure you get the <strong>best offers available</strong>. Please contact our sales team if you have any questions:
+    <div style="line-height: 20px;">Our <strong>Special Offers</strong> are subject to product availability and conditions may apply.<br/>
+    It is only possible to use ONE voucher code with EACH purchase.
+	</div>
+	
+    It is our responsibility to make sure you get the <strong>best offers available</strong>. Please contact us if you have any questions:
     <br/>
 
-    <span  class="wpicon wpicon-envelop medium ic-red"></span>&nbsp;&nbsp;<span id="email_hidden1"><b>@</b></span> <br/>
+    <span  class="wpicon wpicon-envelop medium ic-red"></span>&nbsp;&nbsp;<span id="email_hidden1"><b>@</b></span> &nbsp;&nbsp;
     <span class="wpicon wpicon-phone medium2 ic-blue"></span>&nbsp;&nbsp;<span class="contact-phone phone-large"> 0333 22 00 375 </span>
 </div>
 <br/>

@@ -37,7 +37,8 @@ a.blog-redlink:hover {
 }
 
 #email_hidden1 {
-    width:300px;
+    /*width:300px;*/
+	width:170px;
     text-decoration:underline;
 }
 
