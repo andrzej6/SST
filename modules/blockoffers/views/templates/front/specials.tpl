@@ -55,7 +55,7 @@
             <span class="button-1 fill blue"><a href="{$list['buttonlink']}">{$list['buttontext']}</a></span>
         </div>
     </div>
-    {* {if $header==4}<div class="clear"></div>{/if} *}
+     {if $header==3}<div class="clear">&nbsp;</div>{/if} 
 
 {/foreach}
 
